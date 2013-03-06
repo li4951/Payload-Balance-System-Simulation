@@ -1,0 +1,810 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+                 
+<!DOCTYPE html>
+<html class="ua-win ua-wk">
+<head>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
+    <meta http-equiv="x-ua-compatible" content="ie=7"/>
+    <meta name="saoatech-site-verification" content="N2Y5MzU2M2YyNmVhOTllMGQwYmI4NzAwMTIxYmE2ZDU=" />
+    <title>【7.4更新】任务四“负荷分担的可靠性系统仿真”疑问解答_中兴官方消息汇总_大街网_预见新自己！</title>
+    <link rel="shortcut icon" href="http://assets.dajieimg.com/images/favicon.ico" />
+    <meta content="大街网中兴校园招聘讨论区提供和官方消息相关信息，《【7.4更新】任务四“负荷分担的可靠性系统仿真”疑问解答》简介：span style" name="description"/>
+    <meta content="【7.4更新】任务四“负荷分担的可靠性系统仿真”疑问解答" name="keywords"/>
+    <script type="text/javascript">var _head_start = new Date();var _current_date='2013-01-25 10:45:36';</script>
+    <link rel="stylesheet" type="text/css" href="http://assets.dajieimg.com/css/dajie.45491.css"/>
+    <link rel="stylesheet" type="text/css" href="http://assets.dajieimg.com??/css/layout/fullwidth.41884.css,/css/channels/club2012.45226.css"/>
+    <script type="text/javascript" src="http://assets.dajieimg.com/js/dajie.45275.js"></script>
+    <script type="text/javascript" src="http://assets.dajieimg.com??/lib/jquery/jquery.query.43272.js,/js/jquery.linkup.43535.js,/up/atFriend/js/jquery.atFriend.38911.js"></script>
+    <script type="text/javascript">
+        $.domains = {
+            www : "www.dajie.com",
+            assets : "assets.dajieimg.com"
+        };
+    </script>
+</head>
+<body >
+<script type="text/javascript">var  _body_start = new Date();</script>
+        <iframe src="http://www.dajie.com/crossdomain/proxy.html?t=1359081936191" id="www-ajax-frame" style="display:none;"></iframe>
+    <script type="text/javascript">
+        document.domain = 'dajie.com';
+    </script>
+<div id="dj-header-wrap" class="dj-top-micro">
+    <div>
+        <div id="header">
+        <div id="logo">
+            <h1>
+                <a href="http://www.dajie.com/home">
+                        <img src="http://assets.dajieimg.com/images/header/dj_logo_m_2013.png" alt="大街网"/>
+                </a>
+            </h1>
+        </div>
+        <div class="dj-top-section clearfix">
+            <div class="dj-uinfo-action clearfix">
+                <div class="dj-user-info" id="login-header-region" style="display: none;">
+                    <div class="uinfo-inner">
+                        <div class="user-avatar">
+                            <a style="display: none;" href="http://www.dajie.com/profile/mine" title="" id="user-avatar-link-in-header">
+                            </a>
+                            <a class="aname" href="http://www.dajie.com/profile/mine" title=""><span class="uname"></span><b class="arrow-ud"></b></a>
+                        </div>
+                        <div class="user-stuff">
+                            <ul class="nav-select">
+                                <li><a href="http://job.dajie.com/resume/index" title="我的简历">我的简历</a></li>
+                                <li><a href="http://www.dajie.com/settings/avatar" title="帐号设置">帐号设置</a></li>
+                                <li class="has-separate last"><a class="dj-hd-special-out" href="http://www.dajie.com/account/logout" title="退出">退出</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="login-pls" id="unlogin-header-region" style="display: none;">
+                    <a href="http://www.dajie.com/account/login" title="登录">登录</a><b class="dj-top-separate"></b><a href="http://www.dajie.com/account/reg" title="注册">注册</a>
+                </div>
+            </div>
+            <div class="dj-nav-g">
+    <ul class="dj-nav-list clearfix" id="dj-nav-list" style="display:none">
+        <li>
+            <a href="http://www.dajie.com/home" title="首页"><cite>首页</cite></a>
+        </li>
+        <li>
+            <a href="http://www.dajie.com/profile/mine" title="编辑我的档案"><cite>我的档案</cite></a>
+        </li>
+        <li class="clearfix">
+            <a href="http://job.dajie.com/" title="职位"><cite>职位</cite></a>
+        </li>
+        <li class="J_companyPop ">
+            <a href="http://www.dajie.com/corp/search/index?f=nav" title="公司"><cite>公司</cite></a>
+        </li>
+    </ul>
+            </div>
+        </div>
+    </div>
+    </div>
+    <div style="width:220px;display:none;position:absolute;" class="prompt-tips tips-top" id="J_companyPop">
+        <div class="tips-main">
+            <span class="pointer"></span>
+            <a href="javascript:void(0)" stat="2002" class="remove floatright" style="margin-top:2px;">关闭</a>公司需要你补充资料，<a id="dj-corp-edit" target="_blank" href="#">立即补充</a>！
+        </div>
+    </div>
+    <script type="text/javascript">
+        $(function () {
+            $('#J_companyPop .remove').live('click', function () {
+                $.cookie('dj_corp_bubble', 'false', {path:'/', domain:'dajie.com', expires:1});//24小时之后过期
+                $(this).parents('#J_companyPop').hide();
+            });
+            $('#dj-corp-edit').live('click', function () {
+                var date = new Date();
+                date.setTime(date.getTime() + (30 * 60 * 1000)); //30分钟
+                $.cookie('dj_corp_bubble', 'false', {path:'/', domain:'dajie.com', expires:date});
+                $(this).parents('#J_companyPop').hide();
+            });
+            $('#dj-nav-list .new').each(function(){
+                var $this = $(this);
+                if(!$.cookie('c-'+$this.attr('id'))) {
+                    $this.show();
+                }
+            });
+            $('#dj-nav-list > li > a').click(function(){
+                var $point = $(this).next('.new');
+                if($point.length){
+                    var date = new Date();
+                    date.setTime(date.getTime() + (60 * 60 * 1000) * 24 * 180); //30分钟
+                    $.cookie('c-' + $point.attr('id'), '1', {path:'/', domain:'dajie.com', expires:date});
+                }
+            })
+        });
+        (function () {
+            var iframe = '<iframe class="iframe-mask" frameborder="0" style="" src="javascript:void(0);"></iframe>',
+                    hasOverLay = [];
+            $('#dj-hd-circle,#postMore, #dj-app-nav, #login-header-region > .uinfo-inner, #dajie-notice-region').each(function (i) {
+                $(this).bind('mouseover',function () {
+                    var $this = $(this);
+                    if($this.parents('#dj-nav-list').length && !$this.hasClass('has-more')) return false;
+                    var $navSelect = $this.find('.nav-select'),
+                            $width = $navSelect.outerWidth(),
+                            $height = $navSelect.outerHeight();
+                    $this.addClass('on');
+                    if ($this.hasClass('uinfo-inner')) {
+                        var _w = $this.outerWidth() - 2;
+                        _w = (_w < 94) ? 94 : _w;
+                        $navSelect.css({"width":_w});
+                        $width = _w;
+                        hasOverLay[4] = "1";
+                    }
+                    if (!$navSelect.parents('.on').find('iframe').length) {
+                        $navSelect.parents('.on').append(iframe);
+                    }
+                    $('.on').find('iframe').css({"width":$width, "height":$height});
+                    $this.find('.iframe-mask').show();
+                }).bind('mouseleave', function () {
+                    var $this = $(this);
+                    if($this.parents('#dj-nav-list').length && !$this.hasClass('has-more')) return false;
+                    $this.removeClass('on');
+                    $this.find('.iframe-mask').hide();
+                });
+            });
+            $('#dj-header-wrap .dj-nav-g, #dj-header-wrap .dj-uinfo-action').mouseout(function (e) {
+                if (e.clientY < 0) {
+                    setTimeout(function () {
+                        $('.dj-nav-g li, #login-header-region .uinfo-inner, #dajie-notice-region').removeClass('on');
+                        $('#dj-header-wrap .iframe-mask').hide();
+                    }, 0);
+                }
+            });
+        })();
+        var is_login = $.cookie('dj_auth') != null || $.cookie('dj_auth_v3') != null; //必须是全局变量，别的项目有用
+        window['is_login'] = is_login;
+        (function () {//通知气泡以及用户相关信息
+            if (is_login) {
+                $('#unlogin-header-region').hide();
+                $('#login-header-region').show();
+                $('#dj-nav-list').show();
+                try {
+                    window.setTimeout(function () { //为了获取登录用户的头像
+                        jQuery.getScript('http://www.dajie.com/ajax/loginuserinfo?t=' + new Date().getTime());
+                    }, 50);
+                } catch (e) {
+                }
+                if ($('#dajie-notice-region').length > 0) {
+                    $('#dajie-notice-region').show();
+                    try {
+                        window.setTimeout(function () { //为了获取登录用户的头像
+                            jQuery.getScript('http://www.dajie.com/notice/check?t=' + new Date().getTime());
+                        }, 1000);
+                        window.setInterval(function () {
+                            jQuery.getScript('http://www.dajie.com/notice/check?t=' + new Date().getTime());
+                        }, 5000 * 60);
+                    } catch (e) {
+                    }
+                }
+            } else {
+                $('#login-header-region').hide();
+                $('#dajie-notice-region').hide();
+                $('#unlogin-header-region').show();
+            }
+        })();
+    </script>
+</div>
+<div class="dj-content-wrap " id="dj-content-wrap">
+    <div class="dj-content-inner">
+            <div class="dj-content-shadow">
+<div id="content">
+<div id="maincolumn">
+<link rel="stylesheet" type="text/css" href="http://assets.dajieimg.com/bd/club/zte/skin.40552.css" />
+        <div id="tops-cont"  style="display:none;">
+       <div class="tops-cont">
+           <p class="b f14 g3 ">你关注的名企达到上限100家，不能再关注名企了</p>
+           <p class="g3">取消已关注的名企，才能继续关注其他名企</p>
+           <p class="green">看看<a href="http://company.dajie.com/myfollow">“我关注的名企”</a></p>
+       </div>
+    </div>
+
+    <div class="banner-title">
+            <div class="attentionBox">
+                <a href="##" title="关注" class="attention-btn" id="follow-club" cid="649" name="中兴通讯股份有限公司" ></a>
+                <a href="##" title="取消关注" class="attentioned" id="follow-cancel" cid="649" name="中兴通讯股份有限公司" style="display:none;" ></a>
+                <a href="/club/friendlist"><span id="member-cnt" class="text-link">88627</span></a><br/>
+                <span class="large">已关注</span>
+            </div>
+            <div class="c_logo"><a href="http://zte.dajie.com/page/welcome-zte"><img src="http://fs1.dajie.com/newcorplogo/sl/1308135_sl.png" alt="中兴通讯" /></a></div>
+        <span class="company-title">中兴通讯股份有限公司</span>
+
+    </div>    <div class="navigation">
+        <ul >
+            <li class="home" ><a href="http://zte.dajie.com/page/welcome-zte"><span>首&nbsp;页</span></a></li>
+            <li class="current" ><a href="/discuss/topic/list"><span>讨论区</span></a></li>
+                <li  ><a href="/schedule/list"><span>日&nbsp;程</span></a></li>
+                <li  ><a href="/club/introduce"><span>企业介绍</span></a></li>
+                <li  ><a href="/page/zte/album"><span>企业风采</span></a></li>
+                <li   style="position:relative;z-index:99"><a href="/project/7372">中兴手机创意大赛</a></li>
+                <li><a href="#" id="nav-more"><span>更多</span><em class="arrow"></em></a></li>
+        </ul>
+    </div>
+    <div class="clubNotifications-sub">
+        <ul>
+                        <li><a href="/project/6872">中兴通讯2013届校园招聘启动仪式</a></li>
+                        <li><a href="/project/6272">中兴捧月杯校园程序设计大赛兴趣赛</a></li>
+                        <li><a href="/project/6123">中兴捧月杯校园程序设计大赛</a></li>
+                        <li><a href="/project/6180">中兴通讯2013校园招聘</a></li>
+        </ul>
+    </div>
+
+
+<div class="client">
+    <div class="roof"></div>
+    <div class="room clearfix">
+        <div class="crumb clearfix">
+            <span class="floatright"><a href="/discuss/topic/list" class="text-link">返回讨论区列表</a></span>
+            <a href="/discuss/topic/list" class="text-link">讨论区</a>&nbsp;<span class="gc">&gt;</span>&nbsp;
+                <a href="/discuss/topic/18/240/list" class="text-link">官方消息</a>&nbsp;<span class="gc">&gt;</span>&nbsp;
+        【7.4更新】任务四“负荷分担的可靠性系统仿真”疑问解答
+        </div>
+        <div class="detailMain floatleft">
+            <div class="topic">
+                <div class="user-text">
+                    <div class="pic">
+                            <a href="http://www.dajie.com/profile/WHVf5hmW5g**" title="专家组"><img src="http://9.head00.dajieimg.com/2010/04/22/022/12719346225432589s.jpg" title="专家组"/></a>
+                    </div>
+                    <h1>【7.4更新】任务四“负荷分担的可靠性系统仿真”疑问解答</h1>
+                        <a href="http://www.dajie.com/profile/WHVf5hmW5g**">专家组</a>
+                    <span class="g9">
+                                &nbsp;&nbsp;
+                    </span>
+
+                    <span class="time g9">2012-06-06 15:15:35</span>
+
+                    <div class="topic-msg large">
+<span style="font-size:small"><span style="font-size:small"><span style="font-size:small"><span style="font-size:small"><span style="font-size:small"><span style="font-size:medium"><span style="color:#800000"><span style="font-size:medium"><span style="font-size:medium">请同学们把与任务四相关的问题跟帖发在下方，方便我们的解答与互动，谢谢~</span></span></span><span style="font-size:3"><span style="font-size:3px"></span><br /><br /><span style="color:#ff0000"><span style="font-size:3px"><b>特别提示：<br /></b></span></span></span></span></span><span style="font-size:small"><span style="font-size:2"><span style="color:#008000"><span style="font-size:small"><span style="font-size:10.0pt">【大赛平台提交（</span><span style="font-size:10.0pt">10M</span><span style="font-size:10.0pt">以内）】压缩后直接在大赛平台上传<br /></span></span></span><span style="color:#008000"><span style="font-size:10.0pt">【邮件提交（</span><span style="font-size:10.0pt">10M</span><span style="font-size:10.0pt">以上包括</span><span style="font-size:10.0pt">10M</span><span style="font-size:10.0pt">）】<br /></span></span><span style="color:#008000"><span style="font-size:10.0pt">1</span><span style="font-size:10.0pt">、在大赛平台提交说明：</span><span style="font-size:10.0pt">“‘XX</span><span style="font-size:10.0pt">小组</span><span style="font-size:10.0pt">+</span><span style="font-size:10.0pt">任务</span><span style="font-size:10.0pt">X’</span><span style="font-size:10.0pt">作品已提交至</span>ztepc_work@126.com<span style="font-size:10.0pt">”<br /></span></span><span style="color:#008000"><span style="font-size:10.0pt">2</span><span style="font-size:10.0pt">、以</span><span style="font-size:10.0pt">“XX</span><span style="font-size:10.0pt">小组</span><span style="font-size:10.0pt">+</span><span style="font-size:10.0pt">任务</span><span style="font-size:10.0pt">X”</span><span style="font-size:10.0pt">为邮件主题，通过超大附件上传发送至</span>ztepc_work@126.com<br /></span></span><span style="color:#008000"><span style="font-size:10.0pt">3</span><span style="font-size:10.0pt">、每小组只需要在一个上传途径上传，若双途径上传以在大赛平台上传的作品为准<br /></span></span><span style="font-size:2"><span style="color:#008000"></span><br /><span style="font-size:10pt">此说明只限于中兴捧月校园程序设计大赛（不包括兴趣赛），兴趣赛可分包多次上传<br /></span><br />&nbsp;<span style="color:#ff0000"><b>【7.4汇总】</b></span><br />&nbsp;<span style="color:#800080">1、请问一下用office2010写的文档visio2010作的图不会出现兼容问题吧?</span><br />&nbsp;A：文档请标注使用的office版本，以确保评审时我们可以正常打开。<br />&nbsp;<span style="color:#800080">2、您好，我想问一下，1.关于测试用例中的assert，必须存在吗?可不可以自己设计错误反馈机制?2.测试用例exe文件是只能有一个，还是可以有多个?希望你务必回复。非常感谢</span><br />&nbsp;A：1、assert是题目要求，必须存在。2、题目虽然没有明确写明，但是从方便测试的角度，测试进程最好是1个。<br /><br />&nbsp;<span style="color:#ff0000"><b>【7.3汇总】</b></span><br />&nbsp;<span style="color:#800080">1. 设计文档和用户文档分开写么? 我的意思是写一个文档，还是分开写? 文档用word2007版本提交可以么?</span><br />&nbsp;A：分开写，可以用2007提交;<br />&nbsp;<span style="color:#800080">2. 提交时：</span><br /><span style="color:#800080">&nbsp;1.作品主题填题目吧?</span><br />&nbsp;A：填题目;<br />&nbsp;<span style="color:#800080">2.作品描述还需要填吗?附件有设计文档和用户文档了!</span><br />&nbsp;A：作品描述最好也填一下，作品的概述<br />&nbsp;<span style="color:#800080">3. 截止是日期7月4日，7月4日晚24点以前提交行吗?</span><br />&nbsp;A：可以;<br /><br /><br />&nbsp;  <b> <span style="color:#ff0000">【7.2汇总】</span></b><br />&nbsp;<span style="color:#800080">1. 专家，你好，依然是关于文档的问题，这里的设计文档是指什么?是指详细设计说明书还是概要设计说明书?还是两者都有啊?</span><br />&nbsp;A：对于设计文档，唯一的要求是能够描述清楚自己的设计。<br />&nbsp;<span style="color:#800080">2. 一个负载进程是否可以像测试进程一样模拟多个负载节点，还是用多个负载进程分别模拟多个负载节点???</span><br />&nbsp;A：每个负载节点都必须对应一个单独的进程，多个负载节点对应对个进程。<br />&nbsp;<span style="color:#800080">3. 专家你好，请问你关于6月27号问题3的回答中“测试进程不应该干涉另外两个进程业务运行”，指的是即使测试进程被意外关掉了，SysCtrlNode进程和PlNode进程中应该保存没有被测试进程释放的用户信息吗?就是下一次重新打开测试进程可以获取到之前意外关掉的测试进程中的用户信息吗?</span><br />&nbsp;A：测试进程意外关闭的情况，请根据测试和业务之间的关系，考虑最合理的设计。<br />&nbsp;<span style="color:#800080">4. 你好，用户在接入后，需要和PlNode进行通讯么?还是说只要接入并记录用户信息就可以了?</span><br />&nbsp;A：用户具体的服务，题目对此没做要求，根据设计需求自行决策。<br />&nbsp;<span style="color:#800080">5. 专家，您好，给出的测试用例1中，有三个assert()，其实就是测试了三个功能。还有一些需要测试的，可不可以把那些直接跟在测试用例1后面。然后一运行测试用例。不报错就可以了。还是说必须分成case1、case2、case3……谢谢专家</span><br />&nbsp;A：在满足题目要求的基础上，请从合理性和完备性等角度自行考虑其他测试用例的设计。<br />&nbsp;<span style="color:#800080">6. d) unsigned int GetUserNumByPnode(B)</span><br /><span style="color:#800080">&nbsp;返回PlNode B进程当前处理的用户数</span><br /><span style="color:#800080">&nbsp;unsigned int GetUserNumByPnode(B)的B号节点如果不存在，该api返回-1.可以么?</span><br />&nbsp;A：可以自行设计合理的异常返回值。<br />&nbsp;<span style="color:#800080">7. 请问每个用户名都是手动输入行不?</span><br />&nbsp;A：是指测试用例中的用户吗?如果是的话，根据题目要求用户必须以参数形式在API中输入。<br />&nbsp;<span style="color:#ff0000"><b>【6.29汇总】<br /></b></span><br />&nbsp;<span style="color:#800080">1. API接口用动态链接库可以吗?另外，API接口函数的返回值可以与题目中给定的略有不同吗?</span><br />&nbsp;A：API接口可以通过动态链接库的形式供测试者调用，但是源代码需要提供。<br />&nbsp;接口返回值要求与题目一致，不能不一样。<br />&nbsp;<span style="color:#800080">2. 请问专家，PLNode的服务具体是什么啊?难道只是自动显示新接入或释放的用户和当前用户数吗?</span><br />&nbsp;A：关于服务，可自行定义，题目没做要求。<br />&nbsp;<span style="color:#800080">3. 请问每个测试用例的源码是要写在文档中还是要以工程文件的形式给出?</span><br />&nbsp;A：工程文件<br />&nbsp;<span style="color:#800080">4. 请问专家，提交的是整个工程还是只仅提交.c和.h文件?如果提交整个工程，就太大了!</span><br />&nbsp;A：可执行文件是必须要提供，源代码最好能够提供工程。按照题目的编程语言以及开发及运行环境要求，工程应该不会太大<br />&nbsp;<span style="color:#800080">5. 复赛名额有限制么?呵呵</span><br />&nbsp;A：复赛名额有限制;<br />&nbsp;</span><br /></span></span></span></span><span style="font-size:small"><span style="font-size:small"><span style="font-size:small"><span style="font-size:small"><span style="font-size:small">&nbsp;<span style="color:#ff0000"><b>【6.28汇总】</b></span></span></span></span></span></span></span><br /><span style="color:#800080"><span style="font-size:small">&nbsp;1. 请问专家，支持3个PlNode的接入，是指只支持三个节点接入，还是也得支持1个，2个节点接入的情况?</span></span><br /><span style="font-size:small">&nbsp;A: 按照题意要求是支持三个节点接入。</span><br /> <br /><span style="color:#800080"><span style="font-size:small">&nbsp;2. 请问专家，GetUserNumByPnode(B)这个接口是在Client中实现的吗?如果在Client中实现,参数只有PlNode的标识，没有Client的socket，那client怎么发请求查询呢?</span></span><br /><span style="font-size:small">&nbsp;A: 在测试进程中使用。socket不是非要在参数体现。</span><br /> <br /><span style="color:#800080"><span style="font-size:small">&nbsp;3. 请问，测试进程必须要和PlNode进程建立连接么?我发现对于链接、释放来说，测试进程只需与总控节点通信即可?</span></span><br /><span style="color:#800080"><span style="font-size:small">&nbsp;另外，对测试进程，比如说 main 函数，只能用那几个API，不能有其他代码吗?比如链接到SysCtrlNode进程的一些代码?</span></span><br /><span style="font-size:small">&nbsp;A: 测试进程只需与总控节点通信。</span><br /><span style="font-size:small">&nbsp;可以有其它代码。</span><br /> <br /><span style="color:#800080"><span style="font-size:small">&nbsp;4. 请问，题目中说支持3个PlNode的接入，如果3个PlNode中有一个被关闭，还剩下两个PlNode，此时是否要使整个系统仍保持正常工作(只有两个PlNOde的情况)，还是不用考虑这种情况。</span></span><br /><span style="font-size:small">&nbsp;A: 这种情况可以暂时不考虑。</span><br /> <br /><span style="color:#800080"><span style="font-size:small">&nbsp;5. int GetPnodeByUser(A)</span></span><br /><span style="font-size:small">&nbsp;其中A的类型有规定吗?? 是我们自定义的用户标示就行??</span><br /><span style="font-size:small">&nbsp;A: 题目对此没有要求，根据设计需求自行决策。</span><br /><br /><span style="font-size:small"><span style="font-size:small"><span style="font-size:small"><span style="font-size:small"><br />&nbsp;<span style="color:#ff0000"><b>【6.27汇总】</b></span></span></span></span></span><br /><span style="color:#800080"><span style="font-size:small">&nbsp;1. 请问题目中，支持3个PlNode的接入，是指只支持三个节点接入，还是也得支持1个，2个节点接入的情况?</span></span><br /><span style="font-size:small">&nbsp;A：按照题意要求是支持三个节点接入。</span><br /> <br /><span style="color:#800080"><span style="font-size:small">&nbsp;2. GetPnodeByUser(A) 接口是通过当前运行的用户信息得到PlNode标识 还是随便输入用户信息得到PINode标识</span></span><br /><span style="color:#800080"><span style="font-size:small">&nbsp;GetUserNumByPnode(B) 接口是通过随便输入负荷节点标识得到该节点的处理用户数??还是返回与当前该用户处理的负荷节点的处理用户数</span></span><br /><span style="font-size:small">&nbsp;A:没看懂你的意思。</span><br /><span style="font-size:small">&nbsp;GetPnodeByUser(A)是指返回指定用户A所属的PlNode标识，GetUserNumByPnode(B)是指返回指定PlNode B当前处理的用户总数。</span><br /> <br /><span style="color:#800080"><span style="font-size:small">&nbsp;3. 请问专家，我写了测试进程、主控节点进程、负载节点进程，当测试进程强行退出(关闭测试进程)或设计测试正常结束，而另外两个进程不关闭，那么负载</span></span><br /><span style="color:#800080"><span style="font-size:small">&nbsp;节点和主控节点的用户数目和用户信息是否要清0。</span></span><br /><span style="font-size:small">&nbsp;A:测试进程不应该干涉SysCtrlNode进程和PlNode进程的业务运行。</span><br /> <br /><span style="color:#800080"><span style="font-size:small">&nbsp;4. c) int GetPnodeByUser(A)</span></span><br /><span style="color:#800080"><span style="font-size:small">&nbsp;d) unsigned int GetUserNumByPnode(B)</span></span><br /><span style="color:#800080"><span style="font-size:small">&nbsp;两个接口，分别必须返回PlNode标识和进程当前处理的用户数吗?如果系统设计成异步的，是否能够满足题目要求?</span></span><br /><span style="font-size:small">&nbsp;A:GetPnodeByUser(A)是指返回指定用户A所属的PlNode标识，GetUserNumByPnode(B)是指返回指定PlNode B当前处理的用户总数。</span><br /><span style="font-size:small">&nbsp;异步接口不能满足题目要求。</span><br /><br /><span style="font-size:small"><span style="font-size:small"><span style="font-size:small">&nbsp;<span style="color:#ff0000"><b>【6.26汇总】<br /><br /></b></span></span></span></span><span style="color:#800080"><span style="font-size:small">&nbsp;1. 请问一下，测试进程中的API函数要求调用几个形参了吗?</span></span><br /><span style="color:#800080"><span style="font-size:small">&nbsp;比如VOID ConnectReq(A) ，这个API中，能否有两个形参?</span></span><br /><span style="color:#800080"><span style="font-size:small">&nbsp;急急急!!!</span></span><br /><span style="font-size:small">&nbsp;A：只能有一个形参</span><br /> <br /><span style="color:#800080"><span style="font-size:small">&nbsp;2. 测试进程需要与SysCtrlNode建立几个连接? 是测试进程模拟多个用户，与SysCtrlNode建立多个连接，还是说用户只是一种数据而已?</span></span><br /><span style="font-size:small">&nbsp;A：题目对此没做要求，根据设计需求自行决策</span><br /> <br /><span style="color:#800080"><span style="font-size:small">&nbsp;3. 如果测试进程与SysCtrlNode建立多个连接，那么SysCtrlNode肯定要保存一个用户表，记录用户的分组信息，这样不算用户具体服务吧?</span></span><br /><span style="font-size:small">&nbsp;A：SysCtrlNode是否存储用户信息，题目对此没做要求，根据设计需求自行决策</span><br /> <br /><span style="color:#800080"><span style="font-size:small">&nbsp;4.测试进程里面预留的接口VOID ConnectReq(A)，有专家回复说，A不可以是指针，那么ConnectReq就无法修改A实际的值，所以A无法用SysCtrlNode分配的SOCKET来表示了，是吧?</span></span><br /><span style="font-size:small">&nbsp;A：该问题请参见6.25汇总的问题12</span><br /> <br /><span style="color:#800080"><span style="font-size:small">&nbsp;5.那么SysCtrlNode接到用户的请求后，必须通过来消息的SOCKET查找用户表来确定用户被分配的节点再加以转发，这样是否可行?</span></span><br /><span style="color:#800080"><span style="font-size:small">&nbsp;Payload Node要处理用户接入和删除，保存被分配到该节点的用户信息A， 那么Payload Node在收到SysCtrlNode以后又如何知道该消息是哪个用户发过来的?可否在消息里面添加二进制header，保存用户被分配的SOCKET?</span></span><br /><span style="font-size:small">&nbsp;A：题目对此没做要求，根据设计需求自行决策</span><br /> <br /><span style="color:#800080"><span style="font-size:small">&nbsp;6.同样，为了SysCtrlNode不再次查表，Payload Node返回给总结点的消息也添加一个header，保存总结点分配给用户的SOCKET，这样设计是否违规?</span></span><br /><span style="font-size:small">&nbsp;A：题目对此没做要求，根据设计需求自行决策</span><br /> <br /><span style="color:#800080"><span style="font-size:small">&nbsp;7.最后一个问题，可不可以把用户被分配的节点反馈给User，让User记住，然后User每次发给SysCtrlNode的消息里面添加一个Header，存储自己的分组信息?这样SysCtrlNode就可以读取Header，直接根据Header转发给相应的Node，让Node去处理后面的消息。</span></span><br /><span style="color:#800080"><span style="font-size:small">&nbsp;以上设计是否违规，或者被扣分，请专家组明确告之。</span></span><br /><span style="font-size:small">&nbsp;A：题目对此没做要求，根据设计需求自行决策</span><br /> <br /><span style="color:#800080"><span style="font-size:small">&nbsp;8. 请问专家， 审核标准及评价细则中提到的“用户文档”是不是要求提交材料中的测试说明文档?</span></span><br /><span style="font-size:small">&nbsp;A：该问题请参见6.25汇总的问题8第2问</span><br /> <br /><span style="color:#800080"><span style="font-size:small">&nbsp;9. 专家你好，请问提交的代码是win32 debug通过就行还是必须用win32 release来build?</span></span><br /><span style="font-size:small">&nbsp;A：建议同时提供debug和release两个版本。</span><br /><span style="color:#800080"><span style="font-size:small">&nbsp;本来10M就不够，两个版本那不就更大了啊?建议提高一点空间可否?</span></span><br /><span style="font-size:small">&nbsp;A：该问题请参见6.25汇总的问题19</span><br /><span style="color:#800080"><span style="font-size:small">&nbsp;问题2</span></span><br /><span style="color:#800080"><span style="font-size:small">&nbsp;测试进程的代码是不是只能出现那四个API?其他的都不行(主要指的是建立与总控的连接)?那是不是可以理解为任何一次服务都要重新建立连接?或者第一次与总控结点进行通信时建立连接(在每个API里面都上来建立连接，发现已有连接就不建立，没有则建立)?</span></span><br /><span style="font-size:small">&nbsp;A：题目对此没做要求，根据设计需求自行决策</span><br /><span style="color:#800080"><span style="font-size:small">&nbsp;问题3</span></span><br /><span style="color:#800080"><span style="font-size:small">&nbsp;看到比赛规则里面时间改为了7.4!但是讨论区没有官方公布!以哪个为准?</span></span><br /><span style="font-size:small">&nbsp;A：7月4日为准;</span><br /> <br /><span style="color:#800080"><span style="font-size:small">&nbsp;10. 专家，您好，VOID ConnectReq(A)和VOID ReleaseReq(A)这两个API仅仅是测试进程向控制进程发送了不同的消息，所以这两个函数在测试进程端仅仅是发送一些消息。</span></span><br /><span style="color:#800080"><span style="font-size:small">&nbsp;耳控制节点会根据不同的消息作出不同的反应，最后，处理节点会做具体的操作。我觉得但是这整个一系列的操作分布在三类进程上。我的问题是：是不是这两个API得把每类进程所做的工作都说清楚。而不仅仅是测试进程做的那一小部分。</span></span><br /><span style="color:#800080"><span style="font-size:small">&nbsp;用例1是测试用例代码。n = GetUserNumByPnode (PnodeId);</span></span><br /><span style="color:#800080"><span style="font-size:small">&nbsp;n=GetUserNumByPnode(PnodeId);都是在这里调用。并且在测试部分验证。这么说来。控制节点和处理节点都是会反馈信息给测试进程了么?</span></span><br /><span style="font-size:small">&nbsp;A：题目对此没做要求，根据设计需求自行决策</span><br /><br /><span style="font-size:small"><span style="font-size:small">&nbsp;<span style="color:#ff0000"><b>【6.25汇总】</b></span></span></span><br /><span style="color:#800080"><span style="font-size:small">&nbsp;1. 专家你好 有没有两个用户都在同一个工作他们两个同时想跟PlNode节点通信 例如同时想给PlNode节点传数据~用户与PlNode节点节点的连接服务有没有这种情况~还只是简单的 接入与释放?急求回答~谢谢~</span></span><br /><span style="font-size:small">&nbsp;A：该问题请参见6.21汇总的问题5。</span><br /> <br /><span style="color:#800080"><span style="font-size:small">&nbsp;2. 请问PINode节点，SysCtrl进程的IP地址和端口号是自己事先定好的么?意思就是各个PINode事先知道SysCtrl的IP地址和端口号么，SysCtrl事先知道三个节点的IP地址和端口号么?</span></span><br /><span style="font-size:small">&nbsp;A：题目对此没做要求，根据设计需求自行决策。</span><br /> <br /><span style="color:#800080"><span style="font-size:small">&nbsp;3. 做有窗口程序的，还是控制台的呢，还是都可以?</span></span><br /><span style="font-size:small">&nbsp;A：题目对此没做要求，根据设计需求自行决策。</span><br /> <br /><span style="color:#800080"><span style="font-size:small">&nbsp;4. 1.测试进程可以保存一些信息吗?使得GetPnodeByUser(A) 和GetUserNumByPnode(B)可以本地获取?总感觉保存在测试进程的话有点作弊!所以求解答!!!</span></span><br /><span style="font-size:small">&nbsp;A：测试部分从测试角度去考虑问题，但不能出现测试失败、不符合真实情况或影响业务功能的情况。</span><br /><span style="color:#800080"><span style="font-size:small">&nbsp;2.用户ID可以由测试进程分配吗?还是必须由总控结点来分配?</span></span><br /><span style="color:#800080"><span style="font-size:small">&nbsp;另外A可以是结构体吗?</span></span><br /><span style="font-size:small">&nbsp;A：题目对此没做要求，根据设计需求自行决策。</span><br /> <br /><span style="color:#800080"><span style="font-size:small">&nbsp;5. 专家你好，请问提交的代码是win32 debug通过就行还是必须用win32 release来build?</span></span><br /><span style="font-size:small">&nbsp;A：建议同时提供debug和release两个版本。</span><br /> <br /><span style="color:#800080"><span style="font-size:small">&nbsp;6. 请问以下模拟多用户的方案哪个可行?(1)在测试进程内用多线程模拟;(2)一个用户用一个进程表示，测试进程调用多个用户进程来模拟，即一个用户对应一个可执行文件，测试进程调用这些可执行文件。</span></span><br /><span style="font-size:small">&nbsp;A：题目对此没做要求，根据设计需求自行决策。</span><br /> <br /><span style="color:#800080"><span style="font-size:small">&nbsp;7. 专家您好，请问：除了使用提供的4个API接口外，在测试用例代码中可不可以使用开发者自定义的函数。如：在测试用例代码开头部分需先调用1个自定义的CreateConn()函数。 【CreateConn()实现功能：使测试进程与总控节点进程建立连接】。</span></span><br /><span style="font-size:small">&nbsp;A：测试用例格式必须符合题目要求。</span><br /><span style="color:#800080"><span style="font-size:small">&nbsp;我理解是：如果还存在用户没释放就关闭测试进程，那么负荷节点进程上应该释放用户。 问题是关闭测试进程后再次打开测试进程，测试进程需不需要重新建立之前没“正常释放”的用户。</span></span><br /><span style="font-size:small">&nbsp;A：系统的可靠性请自行考虑。</span><br /> <br /><span style="color:#800080"><span style="font-size:small">&nbsp;8. 请问专家，1、题目中要求的运行环境：“windows操作系统”是指windows XP还是windows 7呢?测试时使用的是windows XP系统吗?</span></span><br /><span style="font-size:small">&nbsp;A：两者都可以。</span><br /><span style="color:#800080"><span style="font-size:small">&nbsp;2、初赛要求中需要提交设计、测试说明文档，而评价细则中文档质量部分说要设计文档和用户文档，请问是不是设计文档、测试文档、用户文档三个都需要提交呢?文档格式可以是PDF吗?</span></span><br /><span style="font-size:small">&nbsp;A：测试说明文档和用户文档在这里可以认为是同一份文档;文档格式建议使用WORD。</span><br /> <br /><span style="color:#800080"><span style="font-size:small">&nbsp;9. 两个用户同时工作在一个负荷节点上 同时想传数据到负荷节点上~用户与负荷节点的连接有没有这种情况?还只是简单的用户释放与接入?谢谢~</span></span><br /><span style="font-size:small">&nbsp;A：题目对此没做要求，根据设计需求自行决策。</span><br /> <br /><span style="color:#800080"><span style="font-size:small">&nbsp;10. </span></span><span style="color:#800080"><span style="font-size:small">一个用户跟总控制节点建立的连接是短连接还是长连接?如果是长连接，a) VOID ConnectReq(A);b) VOID ReleaseReq(A)，这两个API应该需要加个socket的参数，或者把socket放在A里，或者使用全局变量。</span></span><br /><span style="font-size:small">&nbsp;如果是短连接，好像又不怎么现实，如果每次用户跟控制节点通信都要再建立连接，耗时比较大。</span><br /><span style="font-size:small">&nbsp;还是测试进程只需要一个跟控制节点的连接，然后所有用户的请求都通过这个连接来发送。</span><br /><span style="font-size:small">&nbsp;A：题目对此没做要求，根据设计需求自行决策。</span><br /> <br /><span style="color:#800080"><span style="font-size:small">&nbsp;11. 请问可以用rc脚本文件画界面吗?</span></span><br /><span style="font-size:small">&nbsp;可以将所有PLN节点的用户信息整合到一个仿真系统的界面上显示吗?就是PLN节点的进程本身不显示自己用户信息，由其他进程集中显示几个PLN的信息。</span><br /><span style="font-size:small">&nbsp;A：题目对此没做要求，根据设计需求自行决策。</span><br /> <br /><span style="color:#800080"><span style="font-size:small">&nbsp;12. 我想请问下，VOID ConnectReq(A)这个函数中的实参A，假如A为结构体，然后我调用函数时，可否使用如下VOID ConnectReq(&A); 请尽快回复，谢谢!</span></span><br /><span style="font-size:small">&nbsp;A：可以。</span><br /> <br /><span style="color:#800080"><span style="font-size:small">&nbsp;13. 请问专家，客户端可以做个界面出来不?不知道测试用例怎么搞?总不能在改程序进行测试吧?</span></span><br /><span style="font-size:small">&nbsp;A：题目对界面没做要求，根据设计需求自行决策。测试用例请根据题目要求实现。</span><br /> <br /><span style="color:#800080"><span style="font-size:small">&nbsp;14. 两个用户同时工作在一个负荷节点上 同时想传数据到负荷节点上~用户与负荷节点的连接有没有这种情况?还只是简单的用户释放与接入?谢谢~</span></span><br /><span style="font-size:small">&nbsp;A：题目对此没做要求，根据设计需求自行决策。</span><br /> <br /><span style="color:#800080"><span style="font-size:small">&nbsp;15. 请见测试用例1,既然是个用例，那么肯定是个完整的实例。 不理解，ReleaseReq(A)释放了用户A，说明用户A与总控节点断开，总控节点居然还能用GetUserNumByPnode(PnodeId)发送PnodeId进程当前处理的用户数给用户A。 谢谢专家</span></span><br /><span style="font-size:small">&nbsp;A：题中提供的测试用例参考没有问题，请仔细阅读题目，理解测试用例中每个API的含义，相信你能找到答案。</span><br /> <br /><span style="color:#800080"><span style="font-size:small">&nbsp;16. 我有两个问题。</span></span><br /><span style="color:#800080"><span style="font-size:small">&nbsp;一.四个用户与总控节点建立一个套接字还是建立四个?</span></span><br /><span style="color:#800080"><span style="font-size:small">&nbsp;二.在用户释放的时候，我们只要在负荷节点上做相应的显示还是需要真真的把用户与总控节点断开(用closesocket关闭)。</span></span><br /><span style="color:#800080"><span style="font-size:small">&nbsp;谢谢专家，感觉现在把任务想的太复杂了!希望专家给点建议。</span></span><br /><span style="font-size:small">&nbsp;A：题目对此没做要求，根据设计需求自行决策。</span><br /> <br /><span style="color:#800080"><span style="font-size:small">&nbsp;17. 请问专家，payload node的ID是自己在程序里固定的还是由system controller node 动态分配的，请尽快回复!谢谢</span></span><br /><span style="font-size:small">&nbsp;A：题目对此没做要求，根据设计需求自行决策。</span><br /> <br /><span style="color:#800080"><span style="font-size:small">&nbsp;18. 除了 winsocket creatthread API 还能用windows 其他的API 吗?如信号量 自旋锁之类的同步相关API?</span></span><br /><span style="font-size:small">&nbsp;A：题目对此没做要求，根据设计需求自行决策。</span><br /> <br /><span style="color:#800080"><span style="font-size:small">&nbsp;19. 1.附件容量能提高点吗?或者能分多次提交吗?</span></span><br /><span style="color:#800080"><span style="font-size:small">&nbsp;PS:文档需要的还挺多，希望能增大附件容量!(压缩后也超过了)</span></span><br /><span style="font-size:small"><span style="font-size:small">&nbsp;A：目前附件容量仅限10M以下，并只能提交一个附件。请根据要求压缩作品。</span></span><br /> <br /><span style="color:#800080"><span style="font-size:small">&nbsp;20. 提交截止时间是不是改了?之前是27现在改到7.4号了吧?先提交的专家可不可以先审查呢?</span></span><br /><span style="font-size:small">&nbsp;A：提交截止时间以“中兴捧月”官方公告为准;专家的评审工作根据组委会安排统一启动。</span><br /> <br /><span style="color:#800080"><span style="font-size:small">&nbsp;21. 跪求专家解决!!! 我使用winsock时候 ws2_32.lib 库也调用了 用CPP编译能通过 但是改成C就不行 这个问题我在网上收了好久也没找出答案</span></span><br /><span style="font-size:small">&nbsp;A：编译问题请自行解决。</span><br /> <br /><span style="color:#800080"><span style="font-size:small">&nbsp;22. 用户文档 就是那个测试文档吗?</span></span><br /><span style="color:#800080"><span style="font-size:small">&nbsp;提交了 应该我的理解 应该是同一个文档吧!</span></span><br /><span style="font-size:small">&nbsp;A：是同一个文档。</span><br /><br /><span style="font-size:small"><span style="font-size:small">&nbsp;<span style="color:#ff0000"><b>【6.21汇总】</b></span></span></span><br /><span style="font-size:small"><span style="font-size:small"><span style="color:#800080">&nbsp;1. 题目名字既然叫做“负荷分担的可靠性系统仿真”，那么重点应该是负荷分担算法，也就是均衡算法的设计。但是根据题目，我们如果在sysctrlNode里实时保存3个PlNode端的用户数目，均衡时只需找到用户数最小的那个Plnode就行了，这不是太简单了么??如此一来，基本不存在算法问题呀??那本题考察点在哪里????</span></span></span><br /><span style="font-size:small"><span style="font-size:small">&nbsp;A：算法已经简化，初赛只是部分，难易只要按照题目要求答题即可。考察点请关注所有的评分项。</span></span><br /><span style="font-size:small"><span style="font-size:small"><span style="color:#800080">&nbsp;2.专家您好，GetPnodeByUser(A) 和GetUserNumByPnode(B)这两个查询操作是在建立连接的基础上才能查询(即ConnectReq(A)后)?还是可以独立进行的?</span></span></span><br /><span style="font-size:small"><span style="font-size:small">&nbsp;A：可独立进行。</span></span><br /><span style="font-size:small"><span style="font-size:small"><span style="color:#800080">&nbsp;3.专家您好，进程内部也不能用多线程吗?那么负载节点怎么同时为多个用户服务呢?还是说依次轮流为用户服务?</span></span></span><br /><span style="font-size:small"><span style="font-size:small">&nbsp;A：请再研读一下题目，题目的要求已经说明了。</span></span><br /><span style="font-size:small"><span style="font-size:small"><span style="color:#800080">&nbsp;4.专家你好，我想问一下，所有功能实现下来全用的c语言编程，因为做的时候用c语言关联了一个对话框，不是用的mfc，但是最后生成的是.cpp文件，请问这样可以不，编程序的时候用的全是c没有用到c++以及别的语言!这样能满足要求不?</span></span></span><br /><span style="font-size:small"><span style="font-size:small">&nbsp;A：此问题前面已回复，用.c文件。如果是纯C代码，那改成.c结尾吧。</span></span><br /><span style="font-size:small"><span style="font-size:small"><span style="color:#800080">&nbsp;5.专家你好 有没有两个用户都在同一个工作他们两个 同时想跟PlNode节点通信 例如同时想给PlNode节点传数据~用户与PlNode节点节点的连接服务有没有这种情况~还只是简单的 接入与释放?急求回答~谢谢~</span></span></span><br /><span style="font-size:small"><span style="font-size:small">&nbsp;A：没有理解“两个用户都在同一个工作他们两个 同时”意思，另外你的“同时”是如何定义的。</span></span><br /><span style="font-size:small"><span style="font-size:small"><span style="color:#800080">&nbsp;6.请问专家，测试进程是只完成API接口，还是包括整个测试进程(即测试进程中包含main函数，main函数中所有测试用例也是我们设计)</span></span></span><br /><span style="font-size:small"><span style="font-size:small">&nbsp;A：测试进程是用来完成测试的，测试你们写的程序。怎么测题目中有例子，但决不仅限于此，要靠你们去设计测试。程序评分细则中1.b“测试用例完备“已经是非常好的提示了。</span></span><br /><span style="font-size:small"><span style="font-size:small"><span style="color:#800080">&nbsp;7.专家你好 请问所有的用户都要放在一个进程中吗?可以不可以一个用户一个进程?</span></span></span><br /><span style="font-size:small"><span style="font-size:small">&nbsp;A：请按照题目要求实现;</span></span><br /><span style="font-size:small"><span style="font-size:small"><span style="color:#800080">&nbsp;8.再次确认三个问题：</span></span></span><br /><span style="font-size:small"><span style="font-size:small"><span style="color:#800080">&nbsp;1.进程中不可以使用线程?</span></span></span><br /><span style="font-size:small"><span style="font-size:small"><span style="color:#800080">&nbsp;2.测试进程可以保存一些信息吗?使得GetPnodeByUser(A) 和GetUserNumByPnode(B)可以本地获取?还是必须从总控结点得到?</span></span></span><br /><span style="font-size:small"><span style="font-size:small"><span style="color:#800080">&nbsp;3.用户ID可以由测试进程分配吗?还是必须由总控结点?A可以是结构体吗?</span></span></span><br /><span style="font-size:small"><span style="font-size:small">&nbsp;A：1题目对线程没做要求，根据设计需求自行决策;2,3测试部分从测试角度去考虑问题，但如果导致测试失败、不符合真实情况或影响业务功能，那就不应该了。</span></span><br /><span style="font-size:small"><span style="font-size:small"><span style="color:#800080">&nbsp;9.专家您好，从题目上得那个图，我们呢知道箭头是单向的，也就是说测试进程只是客户端，控制进程，既是客户端又是服务器端。而过程处理进程只是服务器端。过程处理进程是不会把一些信息反馈给控制进程的。控制进程也不会反馈信息给测试进程，是这样么?谢谢。</span></span></span><br /><span style="font-size:small"><span style="font-size:small">&nbsp;A：题目没做要求的，根据设计需求自行决策;</span></span><br /><span style="font-size:small"><span style="font-size:small"><span style="color:#800080">&nbsp;10.专家您好，测试进程中的四个API函数必须有吗?我是把这个进程做成界面形式的，直接将int GetPnodeByUser(A)和unsigned int GetUserNumByPnode(B) 函数的功能在button按钮下实现了，并没有单独创建这两个函数，这样可以吗?</span></span></span><br /><span style="font-size:small"><span style="font-size:small">&nbsp;A：既然是题目的要求，那自然必须有。没做要求的，自行决策。</span></span><br /><span style="font-size:small"><span style="font-size:small"><span style="color:#800080">&nbsp;11.不能使用 createThread()?是不是不能用 线程 那不是就不用 createThread??????速度回答!要求上没说 不能用线程!</span></span></span><br /><span style="font-size:small"><span style="font-size:small">&nbsp;A：题目对此没做要求，根据设计需求自行决策;</span></span><br /><span style="font-size:small"><span style="font-size:small"><span style="color:#800080">&nbsp;12.专家您好，我已经实现了功能，虽然我就是用的C语言，没有用C++实现，但是所有文件用的都是CPP后缀的，现在我想把它改成.C后缀的，却怎么都编译不通过了，网上查了一些方法也搞不定，请问怎么使用VC6.0编译C语言呢?</span></span></span><br /><span style="font-size:small"><span style="font-size:small">&nbsp;A：VC6如何编译C这个问题可以问Google。</span></span><br /><br /><span style="font-size:small"><span style="font-size:small"><span style="color:#ff0000"><span style="font-size:small"><b>&nbsp;【6.20汇总】</b></span></span></span></span><br /><span style="font-size:small"><span style="font-size:small"><span style="color:#800080"><span style="font-size:small">&nbsp;1、在测试进程中用windows API启动关闭SysCtrlNode和PlNode，在你们机器运行的时候杀毒软件不会报毒吧，看到上一届的评论说报毒直接淘汰的，接入的用户数量没有限制么，我测试接入了几千万个用户，跑了N多小时</span></span></span></span><br /><span style="font-size:small"><span style="font-size:small"><span style="font-size:small">&nbsp;A：不会，测试情况不用担心。题目没有要求，可自行决定。ps：并不是越多越好。</span></span></span><br /><span style="font-size:small"><span style="font-size:small"><span style="color:#800080"><span style="font-size:small">&nbsp;2、专家你好 请问PlNode显示的用户标识 这个用户标识可以自己定义吗 还是必须显示监听的进程标识?请尽快回复谢谢</span></span></span></span><br /><span style="font-size:small"><span style="font-size:small"><span style="font-size:small">&nbsp;A：用户标识题目没有要求，类型自己定义。</span></span></span><br /><span style="font-size:small"><span style="font-size:small"><span style="color:#800080"><span style="font-size:small">&nbsp;3、请问专家：编程语言必须是C语言，可不可以用C++中的头文件啊，比如iostream.h和stl库?</span></span></span></span><br /><span style="font-size:small"><span style="font-size:small"><span style="font-size:small">&nbsp;A：不可以，必须C语言</span></span></span><br /><span style="font-size:small"><span style="font-size:small"><span style="color:#800080"><span style="font-size:small">&nbsp;4、请我看到专家回复说题目不允许使用线程~我想问下总控制结点进程 和PlNode节点进程里面可以使用线程吧~还有用户只是在PlNode节点接入 和释放 有没有在用户已接入情况下 用户想给PlNode节点传数据 这还得通过总控制节点进程来进行通信?</span></span></span></span><br /><span style="font-size:small"><span style="font-size:small"><span style="font-size:small">&nbsp;A：题中所要求实现的几种节点，每一个节点实体必须使用一个进程实现，不可以使用线程。但是在一个进程内，如果有需要的话允许使用线程,题目没做规定。</span></span></span><br /><span style="font-size:small"><span style="font-size:small"><span style="color:#800080"><span style="font-size:small">&nbsp;5、您好，请问可以使用开源的第三方库吗?</span></span></span></span><br /><span style="font-size:small"><span style="font-size:small"><span style="font-size:small">&nbsp;A：不可以</span></span></span><br /><span style="font-size:small"><span style="font-size:small"><span style="color:#800080"><span style="font-size:small">&nbsp;6、以下是专家回答的两个问题：</span></span></span></span><br /><span style="font-size:small"><span style="font-size:small"><span style="font-size:small">&nbsp;1. 调用Windows API ，如CreateThread 可否?</span></span></span><br /><span style="font-size:small"><span style="font-size:small"><span style="font-size:small">&nbsp;A: 可以。</span></span></span><br /><span style="font-size:small"><span style="font-size:small"><span style="color:#800080"><span style="font-size:small">&nbsp;7、6.19第6个问题的回答，说不让用线程</span></span></span></span><br /><span style="font-size:small"><span style="font-size:small"><span style="font-size:small">&nbsp;线程到底让不让用????</span></span></span><br /><span style="font-size:small"><span style="font-size:small"><span style="font-size:small">&nbsp;A：题中所要求实现的几种节点，每一个节点实体必须使用一个进程实现，不可以使用线程。但是在一个进程内，如果有需要的话允许使用线程,题目没做规定。</span></span></span><br /><span style="font-size:small"><span style="font-size:small"><span style="color:#800080"><span style="font-size:small">&nbsp;8、专家您好，服务端是否可以采用多线程来处理用户的请求?</span></span></span></span><br /><span style="font-size:small"><span style="font-size:small"><span style="font-size:small">&nbsp;A：题中所要求实现的几种节点，每一个节点实体必须使用一个进程实现，不可以使用线程。但是在一个进程内，如果有需要的话允许使用线程,题目没做规定。</span></span></span><br /><span style="font-size:small"><span style="font-size:small"><span style="color:#800080"><span style="font-size:small">&nbsp;9、题目不允许使用线程吗?我不可以在一个进程中开几个线程吗?</span></span></span></span><br /><span style="font-size:small"><span style="font-size:small"><span style="font-size:small">&nbsp;A：题中所要求实现的几种节点，每一个节点实体必须使用一个进程实现，不可以使用线程。但是在一个进程内，如果有需要的话允许使用线程,题目没做规定。</span></span></span><br /><span style="font-size:small"><span style="font-size:small"><span style="color:#800080"><span style="font-size:small">&nbsp;10、请问，是不是一定会有3个P了No的进程?两个行不行，或者四个，或者其它数量的</span></span></span></span><br /><span style="font-size:small"><span style="font-size:small"><span style="font-size:small">&nbsp;A：请按照题目规定答题。</span></span></span><br /><br /><span style="font-size:small"><span style="font-size:small"><span style="font-size:small"><span style="font-size:medium"><span style="font-size:small"><span style="font-size:2"><br /><br />    <b> <span style="color:#ff0000">【6.19汇总】<br /></span></b><br />&nbsp;<span style="color:#800080">1. 专家您好，请问用户的服务具体点是什么?是否可以理解为一个进程，测试进程不断启动用户进程与总控节点进行交互完成某种任务，还是用户只代表一个标识数据集合的变量，传递给总控节点，然后返回数据操作的结果给测试进程就可以了?</span><br />&nbsp;A：可以这么理解。<br />&nbsp;<span style="color:#800080">2. 我很饥渴的问一下各位评委，我可以用.c文件实现，但是我可以用类(class)做OO(面向对象设计)么?可以用std标准模版库么?。。</span><br />&nbsp;A：只要能够满足题目的要求，可以这样实现。<br />&nbsp;<span style="color:#800080">3. 请问测试用例中，如:int GetPnodeByUser(A)</span><br />&nbsp;<span style="color:#800080">1.A 的类型我假设为字符数组char A[20],那么参数A的类型可不可以为char A[].</span><br /><span style="color:#800080">&nbsp;2. 由于上面的函数返回值为int型，是不是就是要求A的PINode标识为int型。</span><br />&nbsp;A：问题1：C语言里没有这样直接做类型定义的，建议您查看下相关书籍，应该可以找到合适的类型定义方法。<br />&nbsp;问题2：可以这么理解。<br />&nbsp;<span style="color:#800080">4. 专家您好，查询是否要在建立链接即调用connectReq(A)...之后才能进行，还是可以在没有任何链接建立之前即调用connectReq(A)...之前就调用查询函数，即调用查询GetPnodeByUser(A)、GetUserNumByPnode (PnodeId)函数。</span><br />&nbsp;A：设计上应该考虑系统的可测试性和健壮性<br />&nbsp;<span style="color:#800080">&nbsp;5. 专家您好，我知道测试进程只有一个，当在进程建立多个链接即connectReq(A)...之后，在调用ReleaseReq(A)...之前就退出进程，这种情况下是否主动断掉链接，还是需在再开启测试进程逐个调用ReleaseReq(A)...进行释放</span><br />&nbsp;A：同问题4<br />&nbsp;<span style="color:#800080">6. 专家您好，测试程序是否会调用多个connectReq()函数，即同一个测试程序中是否会同时存在多个用户A B C D等等。connectReq()函数和RealiseReq()函数是否需要支持线程安全。</span><br />&nbsp;A：首先我们的题目不允许使用线程，所以您说的线程安全不用去考虑。其次测试程序设计应该考虑系统的可测试性和健壮性。<br />&nbsp;<span style="color:#800080">7. 请问下专家，你说一个测试进程包括多个用户，可不可以一个测试进程代表一个用户，多个测试进程代表多个用户。这也与实际更接近点，不同机器上运行测试进程就是不同用户了，同一机器运行多个测试进程也代表多个用户。请早些回复，谢谢!</span><br />&nbsp;A：这样实现也可以。<br /><br />&nbsp;<span style="color:#ff0000">【6.18汇总】<br /></span><br />&nbsp;<span style="color:#800080">1. 题目要求用Windows可执行文件模拟进程，因此应该有1个表示SysCtrlNode进程的可执行文件，1个表示PLNode进程的可执行文件(可多次执行，执行3次则表示用3个可执行文件模拟了3个PLNode进程)，1个表示测试进程的可执行文件。</span><br />&nbsp;A：是的。<br />&nbsp;<span style="color:#800080">2. 请问测试进程是一个吧?</span><br />&nbsp;A：是的。<br />&nbsp;<span style="color:#800080">3. 请问两个问题，谢谢~</span><br />&nbsp;<span style="color:#800080">1)VOID ConnectReq(A);用户标识可不可以直接用一个SOCKET来做?</span><br />&nbsp;A：用户标识题目没有要求，类型自己定义。<br />&nbsp;<span style="color:#800080">2)提交的测试用例和测试结果需不需要包括系统内部模块的测试呢?</span><br />&nbsp;A：建议提交。<br />&nbsp;<span style="color:#800080">4. 测试进程和负载节点建立、释放连接不算直接通信吧?那样不是跟接近实际应用吗?</span><br />&nbsp;A：题目要求负载节点要通过总控节点和用户通信。<br />&nbsp;<span style="color:#800080">5. 假设每个P节点用户数都是100，如果对P2连续释放10次，释放后显然不均衡。好像您说过释放不考虑均衡，那么：</span><br /><span style="color:#800080">&nbsp;在这种状态下，进行一次均衡接入，但结果却不可能均衡：100,91,100。</span><br /><span style="color:#800080">&nbsp;在上述接入时，均衡策略是否需要考虑重新分配问题?即将P1和P3上的节点适量的转移到P2上?</span><br />&nbsp;A：新用户接入时, 需要遵循均衡分布原则，对于已接入的用户不需要重新动态调整。<br />&nbsp;<span style="color:#800080">6. 用VC6.0的环境，可以用C++编程么，难道必须建.c的文件，不能用cpp的?</span><br />&nbsp;A：是的，用.c文件。<br />&nbsp;<span style="color:#800080">7. 对于动态平衡的理解是：</span><br /><span style="color:#800080">&nbsp;1.释放一个用户时，不考虑总体负载是否均衡。</span><br /><span style="color:#800080">&nbsp;2.也就是在释放一个用户后，的总体负载可能是不均衡的。</span><br />&nbsp;A: 是的，释放时不考虑均衡。<br />&nbsp;<span style="color:#800080">3.在这个情况在，有可能增加一个用户后，怎么样都不能达到总体负载平衡。</span><br /><span style="color:#800080">&nbsp;我的问题是：在上述这个情况下，为了达到负载平衡，是否需要全局动态分配。而且这种动态调整的操作只会发生在增加一个用户后。</span><br />&nbsp;A：新用户接入时, 需要遵循均衡分布原则，对于已接入的用户不需要动态调整。<br />&nbsp;<span style="color:#800080">4.还有，现实条件规定每个Payload Node的处理能力肯定是有限。而用户是无限的。本设计没有说增加Payload Node的操作，那么是不是对于草果负荷的用户。弄一个排队机制，等待其他用户释放后，再进去服务。</span><br />&nbsp;A：题目对此没做要求，根据设计需求自行决策。<br />&nbsp;<span style="color:#800080">8. 专家您好，SysCtrlNode进程中说分配并通知PlNode节点为用户服务，意思是说分配这个过程是在SysCtrlNode进程中实现的?这样不是增加了SysCtrlNode进程和PlNode进程通信次数，这有必要吗?直接在PlNode进程中分配可以不?</span><br />&nbsp;A：不行，题目要求负载节点要通过总控节点和用户通信。<br />&nbsp;<span style="color:#800080">9. 请问所有的用户都是在同一个进程中吗?</span><br />&nbsp;A：是的，用户通过测试进程模拟产生。<br /><br />&nbsp;<span style="color:#ff0000">【6.14汇总】<br /></span><br />&nbsp;<span style="color:#800080">1.6.11第7问的回答A：测试进程只能与总控节点直接通信，不能与负荷节点直接通信。</span><br /><span style="color:#800080">&nbsp;我想问的是，如果测试进程不能直接与负荷节点通信，总控节点就还要作为一个转发节点了，所有负荷节点对所有进程的服务都需要通过总控节点转发，可以这样理解吗?</span><br />&nbsp;A：是的，就如你的理解<br />&nbsp;<span style="color:#800080">2.1.SysCtrlNode不涉及用户具体的服务，但是可以保存一些PlNode和用户的信息吗?</span><br /><span style="color:#800080">&nbsp;2.测试进程要获取的信息必须通过SysCtrlNode转发给PlNode，再由PlNode发给SysCtrlNode在返给测试进程吗?</span><br />&nbsp;A：1、题目对此没做要求，根据设计需求自行决策<br />&nbsp;2、题目对此没做要求，根据设计需求自行决策<br />&nbsp;<span style="color:#800080">3.我想问的是我能不能在SysCtrlNode这个进程中，也同时保存一下用户统计信息，这样，我获取某个PINode的节点当前的用户数量，直接向SysCtrlNode查询就好!这样也算SysCtrlNode涉及具体服务了吗?</span><br />&nbsp;A：题目对此没做要求，根据设计需求自行决策<br />&nbsp;<span style="color:#800080">4.请问：1.题目中要求提供的api函数，我可以做成一个.h文件么?</span><br />&nbsp;<span style="color:#800080">2.当总节点对用户分配了负荷节点以后，用户和负荷节点建立了连接，他们是不是直接通信，比如传输文件，而不再需要将文件先交到总结点，总结点再发给负荷节点?</span><br /><span style="color:#800080">&nbsp;谢谢!</span><br />&nbsp;A：1、题目对此没做要求，根据设计需求自行决策<br />&nbsp;2、测试进程不能与负荷节点直接通信<br />&nbsp;<span style="color:#800080">5.关于SysCtrlNode中是否可以储存用户信息问题，专家前后回答的不一样啊?【6.8汇总】中第6问回答说不限制， 【6.13汇总】中第3问中回答不能存储。到底是哪一种??</span><br />&nbsp;A：两次回答不冲突，SysCtrlNode不涉及用户具体的服务，但是是否存储用户信息，题目对此没做要求，根据设计需求自行决策<br />&nbsp;<span style="color:#800080">6.SysCtrlNode中最少要储存PlNode当前服务的用户数目，那么调用GetUserNumByPnode(B)函数时，可以根据SysCtrlNode中储存的信息直接返回用户数么??我觉得如果SysCtrlNode中不存用户信息时，系统通信太过频繁，这样好么??</span><br /><span style="color:#800080">&nbsp;还是说SysCtrlNode中连储存PlNode当前服务的用户数目都不行?调用GetUserNumByPnode(B)函数时，须先跟PlNode通信获得三个PlNode当前服务的用户信息之后，再进行分配??</span><br />&nbsp;A：SysCtrlNode是否存储用户信息，题目对此没做要求，根据设计需求自行决策<br />&nbsp;<span style="color:#800080">7.请问专家组，到底总控节点能不能存用户信息呢，怎么感觉之前对这个问题的回答有矛盾呢(6.8问题6的回答和6.13号问题3的回答)?</span><br />&nbsp;A：两次回答不冲突，SysCtrlNode不涉及用户具体的服务，但是是否存储用户信息，题目对此没做要求，根据设计需求自行决策<br />&nbsp;<span style="color:#800080">8.有没有要求连接用tcp还是udp进行通信啊</span><br />&nbsp;A：题目对此没做要求，根据设计需求自行决策<br /><br /><br />&nbsp;<span style="color:#ff0000"><b>【6.13汇总】<br /></b></span><br />&nbsp;<span style="color:#800080">1.请问进程之间使用socket建立连接之后，相互传递数据可否使用文件进行操作?</span><br />&nbsp;A：请仔细阅读题目，题目中已经明确：进程间采用socket通讯。<br /><br />&nbsp;<span style="color:#800080">2.专家您好!</span><br /><span style="color:#800080">&nbsp;(1)以下是6.11解答的问题7。</span><br /><span style="color:#800080">&nbsp;(2)题目中给出的条件(三、初赛阶段要求)PlNode进程：1. 处理用户的接入。即记录用户信息，并自动显示新接入的用户标识和当前的用户数。</span><br /><span style="color:#800080">&nbsp;我的问题：(1)、(2)不矛盾吗?</span><br /><span style="color:#800080">&nbsp;个人理解:用户通过SysCtrlNode为其分配PlNode服务(采用均衡配置)，而后用户可以与分配的PlNode节点建立连接。那此处建立连接是通过SysCtrlNode建立的连接，算不算(1)7.A提出到测试用例不能与负载节点直接通信?不知道我的理解对不对，求解释，谢谢专家!</span><br /><span style="color:#800080">&nbsp;附6.11的问题7. 我们想确认下， 对于负载节点在给用户提供服务的通信(不是连接建立和释放)，也需要总控节点来转发吗? 不能直接通信吗?</span><br />&nbsp;A：(1)、(2)不矛盾，已经描述的很清楚，测试进程不能与负载节点直接通讯。<br /><br />&nbsp;<span style="color:#800080">3.我想问一下，可不可以把用户信息保存到SysCtrlNode 进程中，还是说用户信息一定要保存到PlNode进程中呢? 还是可以自己决定?忘专家给出解答。</span><br />&nbsp;A：请仔细阅读题目，题目中已经明确：PlNode记录用户信息，删除信息，SysCtrlNode不涉及用户具体的服务。<br /><br />&nbsp;<span style="color:#ff0000"><b>【6.12汇总】</b></span><br /><br />&nbsp;<span style="color:#ff0000"><b>温馨提示：</b></span><br />&nbsp;1、测试<br />&nbsp;在大家的提问里面很少人问到测试，如果说软件设计好、性能好，有测试结果可以体现出来是最好的证明;有关测试用例、测试完备性等专业知识，请自行查阅资料;<br />&nbsp;2、请大家仔细阅读评分规则，基本功能的60分包括实现功能和测试，此外还有其它40分，不要只关注功能。<br /><br />&nbsp;<span style="color:#800080">1. 麻烦专家解答一下负载端可以服务的用户的上限是多少?谢谢</span><br />&nbsp;A：题目对用户上限没做要求，根据设计需求自行决策;<br />&nbsp;<span style="color:#800080">2. 测试进程：A参数是否可以是结构体，再就是测试API ：c) int GetPnodeByUser(A)</span><br /><span style="color:#800080">&nbsp;返回用户A的PlNode标识。无效值为-1 ，是否可以不需要进程通讯获得。</span><br />&nbsp;A：题目对测试进程没做要求，根据设计需求自行决策;<br />&nbsp;<span style="color:#800080">3. 如果采用一个System Controller Node和3个Payload Node，那与之对应是否就需要4个进程?假如需要4个进程，能不能用4个可执行文件实现?</span><br />&nbsp;A：题目已规定用Windows可执行文件模拟进程，请认真阅读题目要求;<br />&nbsp;<span style="color:#800080">4. 用户的信息是存储在数据库里吗?</span><br />&nbsp;A：题目对用户信息存储方式没做要求，根据设计需求自行决策;<br />&nbsp;<span style="color:#800080">5. 请问是否所有windows API都允许使用?如果是的话， 请问platform SDK的版本是否有限制?不是的话，哪些API可用(目前我只知道winsock和createthread可用)?</span><br />&nbsp;A：题目对此没做要求，根据设计需求自行决策;<br />&nbsp;<span style="color:#800080">6. 可不可以在windows编程提供的那个框架(不是MFC)里编程，使用winmain函数而不是传统的main里编程?</span><br />&nbsp;A：题目对此没做要求，根据设计需求自行决策;<br />&nbsp;<span style="color:#800080">7. 用户的socket是专用的么，也就是说每个用户一直用自己的socket进行通信直到release，如同打电话的专用线路。</span><br />&nbsp;A：题目对此没做要求，根据设计需求自行决策;<br />&nbsp;<span style="color:#800080">8. 还是想问用户的数量到底可能有多大，这个关系到算法的复杂度!请专家回答!如果不能回答!那我能否理解是可能会很大?</span><br />&nbsp;A：题目对此没做要求，根据设计需求自行决策;<br /></span></span><br /><span style="font-size:small"><span style="font-size:small"><span style="color:#ff0000"><b>【6.11汇总】</b></span></span><br /></span><span style="font-size:3">&nbsp; </span><span style="color:#800080"><span style="font-size:medium"> <span style="font-size:small">1. 调用Windows API ，如CreateThread 可否？</span></span></span><br /><span style="font-size:small">&nbsp;A: 可以。</span><br /><span style="color:#800080"><span style="font-size:medium"><span style="font-size:small">&nbsp;2. 1 参数可不可以改用指针，比如void ReleaseReq （A）中的A改为A*&nbsp;2 我的理解，C语言一个main（）就相当于一个进程，如过要搞多进程，可否多个工程（一个工程里多个main貌似不行吧），比如，一个PINode工程，一个SysCtrlNode 工程。</span></span></span><br /><span style="font-size:small">&nbsp;A：1. 不可以用指针； 2. 可以是多个工程。</span><br /><span style="color:#800080"><span style="font-size:medium"><span style="font-size:small">&nbsp;3. 各位专家您好！在windows提供的那个框架里全部都是用的C语言，所以我想问一下，可不可以在windows编程提供的那个框架（不是MFC）里编程，还是只用那个传统的main里编程？</span></span></span><br /><span style="font-size:small">&nbsp;A: 不好意思，没明白你说的框架是哪个框架？</span><br /><span style="color:#800080"><span style="font-size:medium"><span style="font-size:small">&nbsp;4. 各位专家您好！请问程序源码能不能用cpp后缀名？</span></span></span><br /><span style="font-size:small">&nbsp;A: 不能，只能使用。C文件。</span><br /><span style="color:#800080"><span style="font-size:medium"><span style="font-size:small">&nbsp;5. 要不要考虑参数错误，A的值是由测试方来填写的么？还是由服务器生成？比如A就是一个ID，测试者把ID填成相同造成重复注册要怎么处理？接口函数连个返回值都没有。</span></span></span><br /><span style="font-size:small">&nbsp;A: 对异常情况的处理，请选手自己考虑和实现。</span><br /><span style="color:#800080"><span style="font-size:medium"><span style="font-size:small">&nbsp;6. 专家回答说可以用winsock， 但是还是没有说可不可以用CreateThread ，请再次确认一下不可以用CreateThread,如果不可以，我能用另外的进程来实现一些辅助功能吗，此时进程间的通信必须是socket吗？</span></span></span><br /><span style="font-size:small">&nbsp;A: 可以使用CreateThread;进程间的通信必须是socket。</span><br /><span style="color:#800080"><span style="font-size:medium"><span style="font-size:small">&nbsp;7. 我们想确认下， 对于负载节点在给用户提供服务的通信（不是连接建立和释放），也需要总控节点来转发吗？ 不能直接通信吗？</span></span></span><br /><span style="font-size:small">&nbsp;A：测试进程只能与总控节点直接通信，不能与负荷节点直接通信。</span><br /><span style="color:#800080"><span style="font-size:medium"><span style="font-size:small">&nbsp;8. 请问专家，最终需不需要做界面？</span></span></span><br /><span style="font-size:small">&nbsp;A：对界面没有要求。</span><br /><span style="color:#800080"><span style="font-size:medium"><span style="font-size:small">&nbsp;9. ID是总控节点为每个用户生成的还是由测试进程通过socket发给总控节点的？</span></span></span><br /><span style="font-size:small">&nbsp;A：题目不做限制，由选手自己考虑设计。</span><br /><span style="color:#800080"><span style="font-size:medium"><span style="font-size:small">&nbsp;10. 请问一下，1. API接口设计是否一定要按照题目所给格式编写，还是可以自己规定参数和返回值？以及A是一种示意还是一个参数？</span><span style="font-size:small">2. 做均衡分配时是否要考虑用户占用时间的长短？</span></span></span><br /><span style="font-size:small">&nbsp;A：1. 接口设计必须符合题目要求的格式；A表示的就是用户，具体的形式由选手自己设计决定。2. 题目不要求考虑用户占用时间。</span><br /><span style="color:#800080"><span style="font-size:medium"><span style="font-size:small">&nbsp;11. 能用线程吗？</span></span></span><br /><span style="font-size:small">&nbsp;A：题中所要求实现的几种节点，每一个节点实体必须使用一个进程实现，不可以使用线程。但是在一个进程内，如果有需要的话允许使用线程……<br />&nbsp;<span style="color:#800080">12. 要做负载均衡的策略么？要做的只是这个平台还是包括策略一套的？</span></span><br /><span style="font-size:small">&nbsp;A：系统必须满足题中需求，策略由选手自己考虑。</span><br /><span style="color:#800080"><span style="font-size:medium"><span style="font-size:small">&nbsp;13. 可不可以一个进程然后用多个线程，用线程可以吧？</span></span></span><br /><span style="font-size:small">&nbsp;A： 题中所要求实现的几种节点，每一个节点实体必须使用一个进程实现，不可以使用线程。但是在一个进程内，如果有需要的话允许使用线程。</span><br /><span style="color:#800080"><span style="font-size:medium"><span style="font-size:small">&nbsp;14. 我也很好奇，在连接和释放的时候通过总控节点我能理解，但是之后还要通过总控节点转发信息，我不知道为什么？这样无疑是在增加总控节点的负担吗？？？难道是有应用场景必须要这么做吗？？？求专家组给予确认。</span></span></span><br /><span style="font-size:small">&nbsp;A：测试进程只能与总控节点直接通信，不能与负荷节点直接通信。可以将这个理解为对系统的需求。</span><br /><span style="color:#800080"><span style="font-size:medium"><span style="font-size:small">&nbsp;15. 请问一下：题目要求SysCtrlNode进程、PlNode进程和测试进程是在一个电脑上面实现，还是说可以将几个进程在不同电脑上运行使用？？</span></span></span><br /><span style="font-size:small">&nbsp;A：要求在同一台电脑上必须实现，多台电脑的情况不做要求。</span><br /><span style="color:#800080"><span style="font-size:medium"><span style="font-size:small">&nbsp;16. 请问编译器是用VC自带的还是任意的C编译器都可以？</span></span></span><br /><span style="font-size:small">&nbsp;A：根据题目要求，在VC6.0下实现，因此要求使用VC编译器。<br /></span><br /><span style="font-size:small"><span style="color:#ff0000"><b>【6.8汇总】</b></span><br />    <span style="color:#800080">1. linux行还是不行？</span></span><br /><span style="font-size:small">    A：和出题组确认了一下，只能是windows，不能linux。</span><br /><span style="color:#800080"><span style="font-size:medium"><span style="font-size:small">    2. 专家我想问一下，当用户与负荷节点连接以后，负荷节点与用户直接通信吗？还是负荷节点也需要通过总控节点然后再与用户通信？还是可以根据自己的需要来实现？</span></span></span><br /><span style="font-size:small">    A：负荷节点要通过总控节点和用户通信。</span><br /><span style="color:#800080"><span style="font-size:medium"><span style="font-size:small">    3. 均衡状态下释放多个用户后不均衡了，需要重新分配吗？还是在接入新用户时能够是指平衡就可以了？</span></span></span><br /><span style="font-size:small">    A：不需要重新分配。但新接入用户时需要再考虑均衡。</span><br /><span style="color:#800080"><span style="font-size:medium"><span style="font-size:small">    4. 请问专家组 做成什么格式？.c文件？ 还是动态链接库还是别的？ 如何调用自己编的文件？能不能具体点，这难道也是比赛内容？</span></span></span><br /><span style="font-size:small">    A：可执行文件<br />   <span style="color:#800080"> 5. C、Windows程序，那么，能调用Windows API 吧，如CreateThread和使用 winSock?</span></span><br /><span style="font-size:small">    A：应该需要调用winsock。</span><br /><span style="color:#800080"><span style="font-size:medium"><span style="font-size:small">    6. 我们想在总控节点也存储每个PlNode的用户信息，这样可以吗？3个PlNode进程能否通过一个父进程生成？显示的时候，3个PlNode的信息在一个控制台中显示，可以吗？还是要求每个PlNode都有各自的控制台显示？</span></span></span><br /><span style="font-size:small">    A：这些题目没有明确限制。</span><br /><span style="color:#800080"><span style="font-size:medium"><span style="font-size:small">    7. 想问下专家组，同一主机内不同进程也只能用socket进行通信吗？要求上是说本题用Windows可执行文件模拟进程，进程间采用Socket通信。</span></span></span><br /><span style="font-size:small">    A：是。</span><br /><span style="color:#800080"><span style="font-size:medium"><span style="font-size:small">    8. 再问下，专家组，能不能在linux下用gcc进行编译啊？如果不能，那我就在windows下编程。</span></span></span><br /><span style="font-size:small">    A：只能在windows下。</span><br /><span style="color:#800080"><span style="font-size:medium"><span style="font-size:small">    9. 请问一下，那里面的每个用户都用一个单独的测试进程来模拟，还是所用用户用一个测试进程来模拟。</span></span></span><br /><span style="font-size:small">    A：这个题目没有明确限制。</span><br /><span style="color:#800080"><span style="font-size:medium"><span style="font-size:small">    10. 考不考虑用户突然断电的情况，那时由于用户没有调用主动release，导致PlNode一直为其将其作为服务的对象，这样造成资源的浪费。</span></span></span><br /><span style="font-size:small">    A：系统的可维护性请大家自己思考。</span><br /><span style="color:#800080"><span style="font-size:medium"><span style="font-size:small">    11. 当为用户非配了真正的PlNode后，PlNode究竟要提供什么服务呢？</span></span></span><br /><span style="font-size:small">    A：关于PlNode提供的服务，题目没有限制，可自行确定。<br /> </span><br /><span style="font-size:small"><span style="color:#ff0000"><b>【6.7汇总】</b></span><br /> </span></span>  <span style="color:#800080"> 1、测试进程中的用户信息包括哪些？</span></span></span></span><br /><span style="font-size:small"><span style="font-size:small"><span style="font-size:small">    A：ID是必须的，其他的可根据设计需要增加。</span></span></span><br /><span style="font-size:small"><span style="font-size:small"><span style="font-size:small">    <span style="color:#800080">2、 只能用C么？意味着就不能用MFC了吗？</span></span></span></span><br /><span style="font-size:small"><span style="font-size:small"><span style="font-size:small">    A：只能用C</span></span></span><br /><span style="font-size:small"><span style="font-size:small"><span style="font-size:small">   <span style="color:#800080"> 3、用户信息是只有一个ID吗？</span><span style="color:#800080">释放一次那种均衡，那么当连续多个用户释放后的均衡是重新动态分配所有用户使其达到均衡还是初始状态是均衡的那么释放后依然认为是均衡的？另外这个不需要做界面吧？</span></span></span></span><br /><span style="font-size:small"><span style="font-size:small"><span style="font-size:small">    A：用户信息最基本的需要ID，其他的根据各自设计需要增加</span></span></span><br /><span style="font-size:small"><span style="font-size:small"><span style="font-size:small">    <span style="color:#800080">4、请问API接口是什么意思？是需要编写动态链接库吗？另外释放用户后需要不需要调整用户分布以保证均衡呢？</span></span></span></span><br /><span style="font-size:small"><span style="font-size:small"><span style="font-size:small">    A：API接口是要求开发者提供，不需要编写动态链接库。</span></span></span><br /><span style="font-size:small"><span style="font-size:small"><span style="font-size:small">    释放用户后不需要动态调整用户分布。</span></span></span><br /><span style="font-size:small"><span style="font-size:small"><span style="font-size:small">   <span style="color:#800080"> 5、请问用户数是不是很多？有上限吗？用户信息应该包括什么？每个PlNode的服务能力有没有上限啊？</span></span></span></span><br /><span style="font-size:small"><span style="font-size:small"><span style="font-size:small">    A：没有设定上限，根据自己设计的系统要求自行设定。</span></span></span><br /><span style="font-size:small"><span style="font-size:small"><span style="font-size:small">    <span style="color:#800080">6、是一个应用程序多个进程吗？</span></span></span></span><br /><span style="font-size:small"><span style="font-size:small"><span style="font-size:small">    A：可以</span></span></span><br /><span style="font-size:small"><span style="font-size:small"><span style="font-size:small">    <span style="color:#800080">7. 这个需要用到哪些知识点啊？怎么感觉好多都不太懂呢？</span></span></span></span><br /><span style="font-size:small"><span style="font-size:small"><span style="font-size:small">    A:题目是定义在无线通信领域，但同学们可以试着剥离掉题目的表象去深入思考下，其实基本不需要无线通信领域的专业知识，当然如果你有的话，相信能给你的系统设计带来更多的考虑。</span></span></span>                    </div>
+
+                       <div class="attentionBar g6">了解更多中兴校园招聘笔面经讯息，请即刻关注<a href="http://zte.dajie.com/page/welcome-zte">中兴2013校园招聘</a></div>
+    <span id="manage-menu-span" class="floatright" style="padding:8px 7px 7px 7px">
+</span>
+<div id="share-module">
+    <span class="b">把当前话题推荐给站外好友 ：</span>
+    <a href="javascript:void(0);" class="renren">人人</a>
+    <a href="javascript:void(0)" class="kaixin">开心</a>
+    <a href="javascript:void(0);" class="sina">新浪微博</a>
+</div>
+
+
+                </div>
+            </div>
+    <div style="width:625px">
+<div id="comment">
+</div>
+    </div>
+        </div>
+    </div>
+    <div class="floor"></div>
+</div>
+</div>
+</div>
+            </div>
+    </div>
+</div>
+<div id="footer">
+    <address>
+        <span class="floatright">
+        <a href="http://www.dajie.com/about/">关于</a>
+
+        | <a href="http://s.dajie.com/">招聘</a>
+        | <a href="http://123.dajie.com/">企业</a>
+        | <a href="http://city.dajie.com/">城市</a>
+        | <a href="http://biz.dajie.com/">行业</a>
+        | <a href="http://company.dajie.com/sub/exam/bs">笔经</a>
+
+        | <a href="http://company.dajie.com/sub/exam/ms">面经</a>
+        | <a href="mailto:service@dajie.com">意见反馈</a>
+        | <a href="http://www.dajie.com/about/privacy.html">服务与声明</a>
+        </span>&copy;2008-2013&nbsp;大街网&nbsp;|&nbsp;京ICP证090373号&nbsp;|&nbsp;京公网安备11010802008965
+
+    </address>
+</div>
+
+<script type="text/javascript">
+    var root_canShowRegFloat = true;
+    $(function(){
+        var is_login = $.cookie('dj_auth') != null || $.cookie('dj_auth_v3') != null;
+    });
+</script>
+    <link rel="stylesheet" type="text/css" href="http://assets.dajieimg.com/css/modules/register-pop.42207.css"/>
+    <script type="text/javascript" src="http://assets.dajieimg.com/js/jquery.formvalidate.43535.js"></script>
+<div id="J_LoginDialogBox" style="display:none;">
+    <div class="dj-dialog-login clearfix">
+        <div class="social-login-box">
+            <div class="hd"><h3>使用以下帐号登录</h3></div>
+            <ul class="social-login-list clearfix">
+                        <li class="login-renren-link"><a href="http://www.dajie.com/account/rr/login" title="人人帐号登录">人人帐号登录</a></li>
+                        <li class="login-kaixin001-link no-mr"><a href="http://www.dajie.com/account/kx/login" title="开心帐号登录">开心帐号登录</a></li>
+                        <li class="login-qqweibo-link"><a href="http://www.dajie.com/account/qq/login" title="腾讯微博登录">腾讯微博登录</a></li>
+                        <li class="login-weibo-link no-mr"><a href="http://www.dajie.com/account/sina/login" title="新浪微博帐号登录">微博帐号登录</a></li>
+            </ul>
+            <div class="g9">快速进入，预见新自己！</div>
+        </div>
+<div class="dj-login-box">
+    <div class="hd"><h3>使用大街网帐号登录</h3></div>
+    <table class="login-table">
+        <tr>
+            <th>
+                <label for="login-email">邮　箱:</label>
+            </th>
+            <td>
+                <input id="login-email" class="reg-input-wrap" type="text" tabindex="1" reg="email" name="email"
+                       maxlength="50" autocomplete="off">
+
+                <div class="error"></div>
+            </td>
+        </tr>
+        <tr>
+            <th><label for="login-pwd">密　码:</label></th>
+            <td>
+                <input id="login-pwd" class="reg-input-wrap" type="password" tabindex="2" name="password">
+
+                <div class="error"></div>
+            </td>
+        </tr>
+        <tr id="login-captcha-tr" style="display: none">
+            <th><label for="login-captcha">验证码:</label></th>
+            <td>
+                <input id="login-captcha" type="text" tabindex="3" name="captcha" style="width:72px" maxlength="10">
+                
+                <a onclick="reset_captcha();return false;" href="javascript:void(0)" style="vertical-align:middle;font-size:12px;color:#86B5D7">换一换</a>
+                <div class="error"></div>
+            </td>
+        </tr>
+        <tr class="spc-tr">
+            <th></th>
+            <td>
+                <div class="fr"><a class="g9" href="http://www.dajie.com/account/lostpassword" title="">忘记密码？</a>
+                </div>
+                <input type="checkbox" class="checkbox" checked id="J_KeepLoginStatus"><label for="J_KeepLoginStatus"
+                                                                                              class="checkbox">保持登录状态</label>
+            </td>
+        </tr>
+        <tr class="spc-tr">
+            <th></th>
+            <td>
+                <a id="reg-link" class="fr" href="http://www.dajie.com/account/reg" title="注册大街网帐号"
+                   stat="7026">注册大街网帐号</a>
+                <a href="###" title="" id="login-submit" class="goto-login-btn formValidateSubmit"
+                   tabindex="3" stat="7021"><b>登&nbsp;&nbsp;录</b></a>
+                <input type="hidden" name="method" value="do"/>
+                <input type="hidden" id="type" name="type" value="0"/>
+                <input type="hidden" name="redir" value="/">
+            </td>
+        </tr>
+    </table>
+</div>
+        <div class="buttons" style="display:none;">
+            <button class="default"><span><span>确定</span></span></button>
+            <button class="normal"><span><span>取消</span></span></button>
+        </div>
+    </div>
+</div>
+
+<script type="text/javascript">
+    function pop_reg(redir, defaultPop,popRegFloat) {
+        if (arguments.length == 0) {
+            redir = '/';
+            defaultPop = 'login';
+            popRegFloat = false;
+        }
+        if(redir == '' || redir == '/') {
+            redir = document.location.href;
+        }
+        var regLink = $('#reg-link');
+        if (regLink.length > 0) {
+            var regLinkHref = regLink.attr('href');
+            if (regLinkHref.indexOf('?') > 0) {
+                regLinkHref = regLinkHref + '&redir=' + encodeURIComponent(redir);
+            } else {
+                regLinkHref = regLinkHref + '?redir=' + encodeURIComponent(redir);
+            }
+            regLink.attr('href',regLinkHref);
+        }
+        $('table.login-table input[name=redir]').val(redir);
+        $('.login-renren-link a').attr('href', 'http://www.dajie.com/account/rr/login?redir='+encodeURIComponent(redir));
+        $('.login-kaixin001-link a').attr('href', 'http://www.dajie.com/account/kx/login?redir='+encodeURIComponent(redir));
+        $('.login-qqweibo-link a').attr('href', 'http://www.dajie.com/account/qq/login?redir='+encodeURIComponent(redir));
+        $('.login-weibo-link a').attr('href', 'http://www.dajie.com/account/sina/login?redir='+encodeURIComponent(redir));
+        $("#J_LoginDialogBox").dialog({
+            title: '登录',
+            mercy:false,
+            width:760,
+            mask:true,
+            stay:'#J_LoginDialogBox',
+            onabort:function(){
+                if(popRegFloat){
+                    try {
+                        if (typeof(forceRegAcount) == "function") {
+                            if($('#J_LoginDialogBox').hasClass('rootRegFloat')) {
+                                return;
+                            }
+                            forceRegAcount();
+                            $('#J_LoginDialogBox').addClass('rootRegFloat');
+                        }
+                    } catch (e) {
+                    }
+                }
+            }
+        });
+
+        $('.pickpane').css({width:"220"});
+            $('.titlebar .close').hide();
+            setTimeout("$('.titlebar .close').fadeIn('slow')", 0);
+    }
+</script>
+    <script type="text/javascript">
+            forceLogin();
+        function forceLogin(){
+            var auth = $.cookie('dj_auth_v3');
+            if (auth == null || auth.length <= 0) {
+                auth = $.cookie('dj_auth');
+            }
+            var login_tips = $.cookie("login_tips");
+            if(auth==null || auth.length <= 0){
+                if (login_tips == null) {
+                    var currentDate = new Date();
+                    var cookieExpiredTime=new Date(currentDate.getFullYear(),currentDate.getMonth(),currentDate.getDate(),currentDate.getHours() + 1,currentDate.getMinutes(),currentDate.getMinutes());
+                    $.cookie('login_tips','1',{ expires: cookieExpiredTime, path: '/', domain: 'dajie.com' });
+                    pop_reg('/','common-reg',true);
+                    root_canShowRegFloat =false;
+                }
+            }
+        }
+    </script>
+
+
+    
+    <script type="text/javascript">
+          $.get('/follow/follownum',{domain:''}, function(r) {
+            $('#member-cnt').text(r);
+          });
+        $('.concern, #follow-cancel').live('click', function() {
+            var obj = $(this);
+            var cid = $(this).attr("cid");
+            $.ajax({
+                url: '/follow/cancel',
+                data: 'cid=' + cid,
+                async: false,
+                success: function(r) {
+                    if (r >= 0) {
+                        handle_follow_cancel(obj, r);
+                    }
+                },
+                error: function(r) {
+                    alert("取消失败")
+                }
+            });
+        });
+
+        $('.unconcern,#follow-club').live('click', function() {
+            if(!is_login){
+                url = location.href;
+                location.href = "http://www.dajie.com/login?redir="+url;
+        }else{
+                var obj = $(this);
+                var cid = $(this).attr("cid");
+                var res = 0;
+                $.ajax({
+                    url: '/follow/add',
+                    data: 'cid=' + cid,
+                    async: false,
+                    success: function(r) {
+                        if (r >= 0) {
+                            handle_follow_add(obj, r);
+                        } else if (r == -2) {
+                            alert("添加失败，请先登录");
+                        } else if (r == -3) {
+                            $.dialog('#tops-cont', {
+                                mask: true, title: '提示', width:518, mercy: false,
+                                oncomplete: function() {
+                                    return true;
+                                }
+                            });
+                        } else {
+                            alert("添加关注失败,请稍后再试");
+                        }
+                    },
+                    error: function(r) {
+                        alert("添加错误!请稍后再试")
+                    }
+                });
+            }
+        });
+        function handle_follow_cancel(obj,r){
+                $("#follow-club").css('display', '');
+                $("#follow-cancel").hide();
+                $('#member-cnt').text(r);
+            }
+            function handle_follow_add(obj,r){
+                $("#follow-club").hide();
+                $("#follow-cancel").css('display', '');
+                $('#member-cnt').text(r);
+            }
+
+            if(is_login){
+                $.get('/person/is-follow' , {cid:'649'}, function(r) {
+                    if(r=='0'){
+                        $("#follow-club").show();
+                        $("#follow-cancel").hide();
+                    }else{
+                        $("#follow-club").hide();
+                        $("#follow-cancel").show();
+                    }
+                });
+            }
+    </script>
+
+    <script type="text/javascript">
+        $('#nav-more').hover(function() {
+            var suboffset = $(this).offset();
+            var left = suboffset.left;
+            var top = suboffset.top + 38;
+
+            $(this).addClass('notifications-selected');
+            $('.clubNotifications-sub').css({top:top + 'px',left:left + 'px'}).show();
+            $('.clubNotifications-sub').hover(function() {
+                $('#nav-more').addClass('current');
+                $(this).show();
+            }, function() {
+                $('#nav-more').removeClass('current');
+                $(this).hide();
+            }).overlay();
+        }, function() {
+            $(this).removeClass('current')
+
+        })
+        $('.clubNotifications-sub li').hover(function() {
+            $(this).css({'background-color':'#f3f3f3'})
+        }, function() {
+            $(this).css({'background-color':'#ffffff'})
+        });
+    </script>
+
+    <script type="text/javascript">
+        $.get('/discuss/admin/110946/menu4detail?recycle=false', function(r) {
+            $('#manage-menu-span').append(r);
+        });
+
+        function spriteResponseHandler(box, r) {
+            if (r.substr(0, 1) == '0') {
+                if (r.length > 2 && r.substr(2).length != 0) {
+                    location.href = r.substr(2);
+                } else {
+                    location.href = location.href;
+                }
+            } else {
+                alert(r.substr(2));
+            }
+        }
+    </script>
+<script type="text/javascript">$('#manage-menu-span a.manage-box').sprite({title: '权限管理', width: 560, mask: true, oncomplete: spriteResponseHandler});</script>
+<script type="text/javascript">$('#manage-menu-span div.managebar div.list a.manage-menu-link-class').sprite({title: '权限管理', width: 560, mask: true, oncomplete: spriteResponseHandler});</script>
+
+<script type="text/javascript"></script>
+<script type="text/javascript">
+        $('#manage-menu-span a span.share-module-reply').last().click(function() {
+            $('#dajie-comment-textbox-id').focus();
+        });
+    $('#share-module .renren').click(function() {
+        renren(screen, document, encodeURIComponent);
+    });
+    $('#share-module .kaixin').click(function() {
+        var st = document.title;
+        kaixin(st);
+    });
+    $('#share-module .sina').click(function() {
+        sina(screen, document, encodeURIComponent, '', '', '', '', '', 'utf-8');
+    });
+</script>
+
+<script type="text/javascript">
+    var commentpage = 1;
+    function load_comments(page) {
+        $('#www-ajax-frame')[0].contentWindow.$.ajax({
+            url:'http://www.dajie.com/comment/list',
+            data:'objectId=110946&type=club_discuss&currentpage=' + page,
+            success: function(r) {
+                commentpage = page;
+                $('#comment').html(r);
+            },
+            error: function() {
+                $('#comment').text('载入评论失败');
+            }
+        });
+    }
+    $(window).load(function() {
+        load_comments(commentpage);
+    });
+</script>
+
+<script type="text/javascript">
+    var _gaq = _gaq || [];
+    _gaq.push(['_setAccount', 'UA-8089983-1']);
+    _gaq.push(['_addOrganic', 'baidu', 'word']);
+    _gaq.push(['_addOrganic', 'soso', 'w']);
+    _gaq.push(['_addOrganic', '3721', 'name']);
+    _gaq.push(['_addOrganic', 'yodao', 'q']);
+    _gaq.push(['_addOrganic', 'vnet', 'kw']);
+    _gaq.push(['_addOrganic', 'sogou', 'query']);
+    _gaq.push(['_setDomainName', '.dajie.com']);
+
+    _gaq.push(['_trackPageview']);
+        _gaq.push(['_setVar', '12245369']);
+    (function () {
+        var ga = document.createElement('script');
+        ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+        ga.setAttribute('async', 'true');
+        document.documentElement.firstChild.appendChild(ga);
+    })();
+</script>
+<script src='http://js.dajie.com/pv.2010061801.js' type='text/javascript'></script>
+<script type="text/javascript">
+    var _now = new Date();
+    var _style_count = $('link[rel=stylesheet]').length;
+    var _script_count = $('script[src]').length;
+    var url = "http://st.dajie.com/performance.st";
+    var i = new Image(1, 1);
+    try {
+        i.src = url + "?h=" + (_body_start - _head_start) + "&b=" + (_now - _body_start) + "&s=" + _style_count + "&j=" + _script_count;
+        i.onload = function () {
+            _uVoid();
+        }
+    } catch (e) {
+    }
+</script>
+
+<script type="text/javascript">
+    $(document).ready(function () {
+        $('#login-email').val($.cookie("login_email"));
+        if ($('#login-email').val() != '') {
+            $('#login-pwd').focus();
+        } else {
+            $('#login-email').focus();
+        }
+    });
+
+    $(".reg-input-wrap").bind("keypress", function (e) {
+        if (e.keyCode == '13' && $(this).attr('id') != 'login-email') {
+            e.preventDefault();
+            $("#login-submit").click();
+        }
+    });
+    var aErrorMsg = ['邮箱格式错误', '密码长度4-20，请重填','请输入正确验证码'];
+    $('.reg-input-wrap').formValidate();
+
+    var emailhosts = ["@qq.com", "@vip.qq.com", "@163.com", "@126.com", "@gmail.com", "@yahoo.com.cn", "@sina.com", "@hotmail.com", "@yahoo.cn", "@sohu.com", "@yeah.net", "@tom.com", "@live.cn", "@foxmail.com", "@139.com", "@21cn.com", "@zju.edu.cn", "@sina.com.cn", "@msn.com", "@mail.ustc.edu.cn", "@mails.jlu.edu.cn", "@sjtu.edu.cn", "@yahoo.com", "@fudan.edu.cn", "@bsnow.net", "@mail.nankai.edu.cn", "@stu.xjtu.edu.cn", "@stu.edu.cn", "@eyou.com", "@mail.ecust.edu.cn", "@mails.tsinghua.edu.cn", "@bjtu.edu.cn", "@mail2.sysu.edu.cn", "@2008.sina.com", "@live.com", "@pku.edu.cn", "@msn.cn", "@ruc.edu.cn", "@bupt.cn", "@sem.tsinghua.edu.cn", "@gsm.pku.edu.cn", "@bit.edu.cn", "@emails.bjut.edu.cn", "@sogou.com", "@mail.bnu.edu.cn", "@vip.sina.com", "@mail.scut.edu.cn", "@mails.thu.edu.cn", "@njupt.edu.cn", "@cuc.edu.cn", "@cqu.edu.cn", "@mail.sdu.edu.cn", "@uestc.edu.cn", "@shu.edu.cn", "@lzu.cn", "@263.net", "@tju.edu.cn" ];
+    $('#login-email').matchbox({strict:false, hasTips:false, hasTitle:true, minlength:1, titleLink:'https://mail.qq.com/cgi-bin/loginpage', customQuery:function (q) {
+        var atIndex = q.indexOf('@');
+        if (q.replace(/ |　/g, '').length == 0) {
+            return [];
+        }
+        var matchs = new Array();
+        if (atIndex == -1 || atIndex == q.length - 1) {
+            q = q.replace('@', '');
+            matchs.push({id:'_Title" class="exceeded', text:'推荐使用 <a href="javascript:void(0);">QQ邮箱</a> 注册'});
+            for (var i = 0; i < 9; i++) {
+                matchs.push({id:q + emailhosts[i], text:sub_email(q) + emailhosts[i]});
+            }
+        } else {
+            var name = q.substr(0, atIndex);
+            var host = q.substr(atIndex);
+            var flag = true;
+            for (i = 0; i < emailhosts.length; i++) {
+                if (emailhosts[i].indexOf(host) == 0) {
+                    if (flag) {
+                        matchs.push({id:'_Title" class="exceeded', text:'推荐使用 <a href="javascript:void(0);">QQ邮箱</a> 注册'});
+                        flag = false;
+                    }
+                    matchs.push({id:name + emailhosts[i], text:sub_email(name) + emailhosts[i]});
+                }
+            }
+        }
+        return matchs;
+    }});
+
+    function sub_email(s) {
+        if (s.length > 10) {
+            s = s.substr(0, 5) + '...' + s.substr(s.length - 5);
+        }
+        return s;
+    }
+
+    function form_submit() {
+        if ($.formValidate.check()) {
+            $("#login-submit").unbind("click");
+            var rememberMePara = '&d.rememberMe=1';
+            if (!$('#J_KeepLoginStatus')[0].checked) {
+                rememberMePara = '';
+            }
+            if ($('#login-captcha-tr:visible').length > 0) {
+                rememberMePara += '&captcha=' + $('#login-captcha').val();
+            }
+            var redir = $('table.login-table input[name=redir]').val();
+            if (!redir || redir.length == 0) {
+                redir = window.location.href;
+            }
+
+            if (redir.indexOf('/account/login') >= 0) {
+                redir = '/';
+            }
+            $('.login-table .error').hide();
+                var url = '/account/loginsubmit';
+                $.ajax({
+                    url:url,
+                    data:'redir=' + encodeURIComponent(redir) + '&d.email=' + $('#login-email').val() + '&d.password=' + encodeURIComponent($('#login-pwd').val()) + rememberMePara,
+                    type:"POST",
+                    dataType:"script"
+                });
+        } else {
+            $('.reg-input-wrap').each(function () {
+                var r = $.formValidate.check(this),
+                        subNum = $('.reg-input-wrap').index(this),
+                        $errorBox = $(this).parents('td').children('.error');
+                if (!r) {
+                    $errorBox.text(aErrorMsg[subNum]);
+                } else {
+                    $errorBox.text('');
+                }
+            });
+        }
+        return false;
+    }
+
+    $('.reg-input-wrap').bind('focus', function () {
+        $(this).parents('td').find('.error').text('');
+    });
+
+    function reset_captcha() {
+        $('#login-captcha').val('');
+        if($('#login-captcha-img').length > 0) {
+            $('#login-captcha-img').attr('src', 'http://www.dajie.com/captcha/code?t'+new Date().getTime())
+        } else {
+            $('#login-captcha').after('<img id="login-captcha-img" src="http://www.dajie.com/captcha/code" title="验证码" style="vertical-align:middle">');
+        }
+    }
+
+    function LOGIN_CALLBACK(r) {
+        reset_captcha();
+        if (r.substr(0, 1) == '1') {
+            $('#login-email').parents('td').children('.error').text('邮箱和密码不符，请重新登录！').show();
+        } else if(r.substr(0,1) == '2'){
+            var info = r.substr(2).split(",");
+            $.alert("<div style=' padding: 24px 20px 24px 66px;background: url(http://assets.dajieimg.com/up/profile2012/i/dj-dialog-ico-alert.gif) 12px center no-repeat;'><div class='bd' style='padding-left: 24px;border-left: 1px solid #E5E5E5'><p class='con' style='font-size: 14px;line-height: 20px;'>" + info[0] + "，你的帐号发生过异常登录。</p><p class='plus' style='font-size: 14px;line-height: 20px;padding-top: 10px;color:#333'>我们已向你的邮箱 <strong style='font-weight: bold;color : #333'>" + info[1] + "</strong> 发送密码重置链接，请立即处理。</p></div></div>",{"title":"大街提示","width":460});
+        } else if (r.substr(0, 1) == '3') {
+            if ($('#login-captcha-tr:visible').length == 0) {
+                reset_captcha();
+                $('#login-captcha-tr').show();
+                $('#login-captcha').addClass('reg-input-wrap');
+                $('#login-captcha').bind("keypress", function (e) {
+                    if (e.keyCode == '13' && $(this).attr('id') != 'login-email') {
+                        e.preventDefault();
+                        $("#login-submit").click();
+                    }
+                });
+            } else {
+                $('#login-captcha').parents('td').children('.error').text('请输入正确验证码').show();
+            }
+        } else {
+            document.location.href = r;
+        }
+        $("#login-submit").bind("click", form_submit);
+    }
+    $("#login-submit").bind("click", form_submit);
+</script>
+
+
+</body>
+</html>

@@ -1,0 +1,503 @@
+<!DOCTYPE html>
+<html class="ua-win ua-wk">
+<head>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
+    <meta http-equiv="x-ua-compatible" content="ie=7"/>
+    <meta name="saoatech-site-verification" content="N2Y5MzU2M2YyNmVhOTllMGQwYmI4NzAwMTIxYmE2ZDU=" />
+    <title>中兴通讯第四届"中兴捧月"杯校园程序设计大赛-大街网2012</title>
+    <link rel="shortcut icon" href="http://assets.dajieimg.com/images/favicon.ico" />
+    <meta content="中兴通讯第四届校园程序设计大赛是中兴通讯继续与大街网联手，以满足企业国际化发展用人需求，为莘莘学子搭建成就激情与梦想的一个舞台，中兴通讯第四届校园程序设计大赛期待您的参与！" name="description"/>
+    <meta content="中兴通讯校园程序设计大赛,中兴实习,中兴校园招聘,中兴通讯集团校园招聘,大街网校园招聘,大街网,dajie.com" name="keywords"/>
+    <script type="text/javascript">var _head_start = new Date();var _current_date='2013-01-25 10:45:13';</script>
+    <link rel="stylesheet" type="text/css" href="http://assets.dajieimg.com/css/dajie.45491.css"/>
+    <link rel="stylesheet" type="text/css" href="http://assets.dajieimg.com??/css/layout/fullwidth.41884.css,/bd/group/css/style.40552.css,/bd/group/css/temp2.40552.css,/bd/group/skin/zte/skin.40552.css"/>
+    <script type="text/javascript" src="http://assets.dajieimg.com/js/dajie.45275.js"></script>
+    <script type="text/javascript" src="http://assets.dajieimg.com??/bd/group/js/group.40552.js"></script>
+    <script type="text/javascript">
+        $.domains = {
+            www : "www.dajie.com",
+            assets : "assets.dajieimg.com"
+        };
+    </script>
+</head>
+<body >
+<script type="text/javascript">var  _body_start = new Date();</script>
+<div id="dj-header-wrap" class="dj-top-micro">
+    <div>
+        <div id="header">
+        <div id="logo">
+            <h1>
+                <a href="http://www.dajie.com/home">
+                        <img src="http://assets.dajieimg.com/images/header/dj_logo_m_2013.png" alt="大街网"/>
+                </a>
+            </h1>
+        </div>
+        <div class="dj-top-section clearfix">
+            <div class="dj-uinfo-action clearfix">
+                <div class="dj-user-info" id="login-header-region" style="display: none;">
+                    <div class="uinfo-inner">
+                        <div class="user-avatar">
+                            <a style="display: none;" href="http://www.dajie.com/profile/mine" title="" id="user-avatar-link-in-header">
+                            </a>
+                            <a class="aname" href="http://www.dajie.com/profile/mine" title=""><span class="uname"></span><b class="arrow-ud"></b></a>
+                        </div>
+                        <div class="user-stuff">
+                            <ul class="nav-select">
+                                <li><a href="http://job.dajie.com/resume/index" title="我的简历">我的简历</a></li>
+                                <li><a href="http://www.dajie.com/settings/avatar" title="帐号设置">帐号设置</a></li>
+                                <li class="has-separate last"><a class="dj-hd-special-out" href="http://www.dajie.com/account/logout" title="退出">退出</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="login-pls" id="unlogin-header-region" style="display: none;">
+                    <a href="http://www.dajie.com/account/login" title="登录">登录</a><b class="dj-top-separate"></b><a href="http://www.dajie.com/account/reg" title="注册">注册</a>
+                </div>
+            </div>
+            <div class="dj-nav-g">
+    <ul class="dj-nav-list clearfix" id="dj-nav-list" style="display:none">
+        <li>
+            <a href="http://www.dajie.com/home" title="首页"><cite>首页</cite></a>
+        </li>
+        <li>
+            <a href="http://www.dajie.com/profile/mine" title="编辑我的档案"><cite>我的档案</cite></a>
+        </li>
+        <li class="clearfix">
+            <a href="http://job.dajie.com/" title="职位"><cite>职位</cite></a>
+        </li>
+        <li class="J_companyPop ">
+            <a href="http://www.dajie.com/corp/search/index?f=nav" title="公司"><cite>公司</cite></a>
+        </li>
+        <li>
+            <a href="http://www.dajie.com/ask/home" title="问答" target="_top"><cite>问答</cite></a>
+        </li>
+    </ul>
+            </div>
+        </div>
+    </div>
+    </div>
+    <script type="text/javascript">
+        $(function () {
+            $('#dj-nav-list .new').each(function(){
+                var $this = $(this);
+                if(!$.cookie('c-'+$this.attr('id'))) {
+                    $this.show();
+                }
+            });
+            $('#dj-nav-list > li > a').click(function(){
+                var $point = $(this).next('.new');
+                if($point.length){
+                    var date = new Date();
+                    date.setTime(date.getTime() + (60 * 60 * 1000) * 24 * 180); //30分钟
+                    $.cookie('c-' + $point.attr('id'), '1', {path:'/', domain:'dajie.com', expires:date});
+                }
+            })
+        });
+        (function () {
+            var iframe = '<iframe class="iframe-mask" frameborder="0" style="" src="javascript:void(0);"></iframe>',
+                    hasOverLay = [];
+            $('#dj-hd-circle,#postMore, #dj-app-nav, #login-header-region > .uinfo-inner, #dajie-notice-region').each(function (i) {
+                $(this).bind('mouseover',function () {
+                    var $this = $(this);
+                    if($this.parents('#dj-nav-list').length && !$this.hasClass('has-more')) return false;
+                    var $navSelect = $this.find('.nav-select'),
+                            $width = $navSelect.outerWidth(),
+                            $height = $navSelect.outerHeight();
+                    $this.addClass('on');
+                    if ($this.hasClass('uinfo-inner')) {
+                        var _w = $this.outerWidth() - 2;
+                        _w = (_w < 94) ? 94 : _w;
+                        $navSelect.css({"width":_w});
+                        $width = _w;
+                        hasOverLay[4] = "1";
+                    }
+                    if (!$navSelect.parents('.on').find('iframe').length) {
+                        $navSelect.parents('.on').append(iframe);
+                    }
+                    $('.on').find('iframe').css({"width":$width, "height":$height});
+                    $this.find('.iframe-mask').show();
+                }).bind('mouseleave', function () {
+                    var $this = $(this);
+                    if($this.parents('#dj-nav-list').length && !$this.hasClass('has-more')) return false;
+                    $this.removeClass('on');
+                    $this.find('.iframe-mask').hide();
+                });
+            });
+            $('#dj-header-wrap .dj-nav-g, #dj-header-wrap .dj-uinfo-action').mouseout(function (e) {
+                if (e.clientY < 0) {
+                    setTimeout(function () {
+                        $('.dj-nav-g li, #login-header-region .uinfo-inner, #dajie-notice-region').removeClass('on');
+                        $('#dj-header-wrap .iframe-mask').hide();
+                    }, 0);
+                }
+            });
+        })();
+        var is_login = $.cookie('dj_auth') != null || $.cookie('dj_auth_v3') != null; //必须是全局变量，别的项目有用
+        window['is_login'] = is_login;
+        (function () {//通知气泡以及用户相关信息
+            if (is_login) {
+                $('#unlogin-header-region').hide();
+                $('#login-header-region').show();
+                $('#dj-nav-list').show();
+                try {
+                    window.setTimeout(function () { //为了获取登录用户的头像
+                        jQuery.getScript('http://www.dajie.com/ajax/loginuserinfo?t=' + new Date().getTime());
+                    }, 50);
+                } catch (e) {
+                }
+                if ($('#dajie-notice-region').length > 0) {
+                    $('#dajie-notice-region').show();
+                    try {
+                        window.setTimeout(function () { //为了获取登录用户的头像
+                            jQuery.getScript('http://www.dajie.com/notice/check?t=' + new Date().getTime());
+                        }, 1000);
+                        window.setInterval(function () {
+                            jQuery.getScript('http://www.dajie.com/notice/check?t=' + new Date().getTime());
+                        }, 5000 * 60);
+                    } catch (e) {
+                    }
+                }
+            } else {
+                $('#login-header-region').hide();
+                $('#dajie-notice-region').hide();
+                $('#unlogin-header-region').show();
+            }
+        })();
+    </script>
+</div>
+<div class="dj-content-wrap " id="dj-content-wrap">
+    <div class="dj-content-inner">
+            <div class="dj-content-shadow">
+<div id="content">
+<div id="maincolumn">
+
+
+        <div class="clearfix">
+
+<div class="banner"></div>
+<div class="nav">
+    <ul class="clearfix">
+        <li class="first"><a href="http://company.dajie.com">大赛首页</a></li>
+        <li class="current"><a id="my_game" href="/team/index?aid=2">我的大赛</a></li>
+        <li ><a href="/interest/doc/zte/index">兴趣赛</a></li>
+        <li ><a href="/team/doc/zte/com">活动交流区</a></li>
+        <li ><a href="/team/doc/zte/rules">活动规则</a></li>
+        <li ><a href="/team/doc/zte/review">往届回顾</a></li>
+        <li class="last "><a href="/team/doc/zte/org">组织机构</a></li>
+    </ul>
+</div>
+<div class="step">
+            <ul>
+                <li style="padding-left:100px;"><span class="b g3">报名参赛</span><br/>
+5月2日到6月13日</li>
+                <li><span class="b g3">组队</span><br/>
+2-3个人1组(学历<br/>学校毕业年份相同)</li>
+                <li><span class="b g3">激活小组</span><br/>
+一旦激活小组，<br/>将无法更换组员</li>
+                <li><span class="b g3">领取任务</span><br/>
+任务发布后，<br/>即可马上领取</li>
+                <li><span class="b g3">提交作品</span><br/>
+6月6日到7月4<br/>日提交初赛作品</li>
+            </ul>
+    </div>
+
+
+            <div class="main">
+
+<div class="sideColumn">
+    <div class="sideTop"></div>
+    <div class="sideMiddle">
+        <div class="s-t"><img src="http://assets.dajieimg.com/bd/group/images/s-tit1.gif"></div>
+        <div class="sideNav">
+            <dl>
+                <dt>小组</dt>
+                <dd><a href="/team/index?aid=2" >我的小组</a></dd>
+                <dd><a href="/team/teams?aid=2" >正在寻找队员的小组</a></dd>
+            </dl>
+            <dl>
+                <dt>参赛人员</dt>
+                <dd><a href="/team/member?aid=2" >正在寻找小组的人</a></dd>
+            </dl>
+            <dl>
+                <dt>任务</dt>
+                <dd><a href="/team/task?aid=2" >全部任务</a></dd>
+                <dd><a href="/team/mytask?aid=2" >我的任务</a></dd>
+            </dl>
+            <dl>
+                <dt>作品</dt>
+                <dd><a href="/team/mywork?aid=2">我的作品</a></dd>
+            </dl>
+            <dl>
+                <dt>报名</dt>
+                <dd><a href="/team/myInfo?aid=2">我的报名信息</a></dd>
+            </dl>
+        </div>
+    </div>
+    <div class="sideBottom"></div>
+</div>
+                <div class="mainColumn">
+                    <div class="normalPanel">
+                        <div class="mainTop"></div>
+                        <div class="mainMiddle">
+                                <h2 class="b f16">负荷分担的可靠性系统仿真</h2>
+
+                                <div class="missionInfo">
+                                    <p class="large">任务描述：<p class="">一、 标题</p>
+
+                                            <p class=" indent">负荷分担的可靠性系统仿真</p>
+
+                                            <p class="">二、 题目</p>
+
+                                            <p class=" indent">
+                                              在无线通信系统中，无论是运营商或者设备商对系统的可靠性、可用性都极其关注。请设计一套考虑负荷分担的可靠性仿真系统。如图1所示，总控节点（System Controller Node）负责用户接入，通过一定的分配规则分配相应的负荷节点（Payload Node）为其服务，总控节点本身不涉及用户具体的服务。负荷节点(Payload Node)负责用户具体的服务，各个负荷节点完成功能一致。
+                                            </p>
+
+                                            <p class="indent"><img src="http://assets.dj10.net/bd/group/skin/zte/images/image004.gif" alt="">
+
+                                            <p class="">三、初赛阶段要求</p>
+
+                                            <p class="indent ">编程语言：C语言</p>
+
+                                            <p class="indent ">开发及运行环境：Windows操作系统、VC6.0
+                                            </p>
+
+                                            <p class="indent ">本题用Windows可执行文件模拟进程，进程间采用Socket通信。各个进程的具体要求如下：</p>
+                                            <p>SysCtrlNode进程：</p>
+                                            <p class="indent ">1.支持3个PlNode的接入</p>
+
+                                            <p class="indent">2.处理用户的接入。即分配并通知PlNode节点为用户服务，采用均衡分配</p>
+                                            <p class="indent">3.处理用户的释放。即通知所分配的PlNode释放用户</p>
+
+                                            <p>PlNode进程：</p>
+                                            <p class="indent">1.处理用户的接入。即记录用户信息，并自动显示新接入的用户标识和当前的用户数</p>
+                                            <p class="indent">2.处理用户的释放。即删除用户信息，并自动显示释放的用户标识和当前的用户数</p>
+
+                                            <p>测试进程：</p>
+                                            <p class="indent">1.提供以下几个API接口</p>
+                                            <p class="indent">a)VOID ConnectReq(A)</p>
+                                            <p class="indent">向SysCtrlNode进程发消息通知用户A建立</p>
+                                            <p class="indent">b） VOID ReleaseReq（A）</p>
+                                            <p class="indent">向SysCtrlNode进程发消息通知用户A释放</p>
+
+                                            <p class="indent">c） int GetPnodeByUser(A)</p>
+                                            <p class="indent">返回用户A的PlNode标识。无效值为-1</p>
+                                            <p class="indent">d） unsigned int GetUserNumByPnode(B)</p>
+                                            <p class="indent">返回PlNode  B进程当前处理的用户数</p>
+                                            <p class="indent">2.需要提供典型的测试用例代码并测试通过，测试用例格式参考以下： </p>
+                                            <p class="indent">用例1 </p>
+                                            <p class="indent">ConnectReq (A);</p>
+                                            <p class="indent">PnodeId = GetPnodeByUser(A);</p>
+                                            <p class="indent">assert(PnodeId != -1);</p>
+                                            <p class="indent">n = GetUserNumByPnode (PnodeId);</p>
+                                            <p class="indent">assert(n == 1);</p>
+                                            <p class="indent">ReleaseReq(A)</p>
+                                            <p class="indent">n = GetUserNumByPnode (PnodeId);</p>
+                                            <p class="indent">assert(n == 0);</p>
+                                            <p class="indent">均衡分配规则：各个PlNode当前处理的用户数尽量平均分布。下面以接入4个用户为例：</p>
+                                            <p class="indent">系统开始接入4个用户后（假定中间无用户释放），该4个用户在各个PlNode的分布场景，如表1所示，其所列出的场景1、2 、3满足要求，场景4、5则不满足要求。</p>
+
+
+                                            <p class="t-center">表1无用户释放的情况</p>
+                                            <p class="indent t-center"><img src="http://assets.dj10.net/bd/group/skin/zte/images/image005.jpg" alt=""></p>
+
+
+                                            <p class="indent">如果用户释放，各个PlNode的分布场景发生变化。在本例中，假定PlNode2上的一个用户释放，当前系统总用户数变成3，此时各个PlNode的用户分布情况如表2所示，场景1、2、3满足需求。</p>
+                                           <br>
+                                                  <p class="t-center">表2 有用户释放的分布情况</p>
+
+                                            <p class="indent t-center"><img src="http://assets.dj10.net/bd/group/skin/zte/images/image006.jpg" alt=""></p>
+
+
+                                            <p class="">四、初赛阶段说明</p>
+
+                                            <p>在初赛阶段需要提交下列材料：</p>
+                                            <p class="indent ">1.设计、测试说明文档</p>
+
+                                            <p class="indent">2.可编译执行的源代码（内含测试用例代码）</p>
+
+                                            <p class="indent">3.可执行程序</p>
+
+                                            <p>如有缺失将直接影响评分。</p>
+
+                                            <p class="green">五、复赛阶段要求</p>
+                                            <p class="indent green">在初赛已完成的系统上实现以下需求，构造测试用例并且能够测试通过</p>
+                                            <p class="indent green">1.支持PlNode热插拔，最多支持5个</p>
+                                            <p class="indent green">a)新插入PlNode能为新接入的用户服务，之前接入的用户维持现状</p>
+                                            <p class="indent green">b)PlNode拔出，系统保证为之前接入的用户继续服务</p>
+                                            <p class="indent green">2.SysCtrlNode在系统中扮演了重要的角色，如果它发生瘫痪（如重启）将导致系统不可用，请设计方法实现解决该问题。即，假使SysCtrlNode重启，对于已接入的用户服务没有影响，通过测试用例进程仍能正常释放已接入的用户，也能正常接入新用户</p>
+                                            <p class="indent green">注意：复赛的测试用例需要构造PlNode为0~5的不同情况。</p>
+                                            <p class="indent green">如：</p>
+                                            <p class="indent green">PlNode为1时，</p>
+                                            <p class="indent green">用例1</p>
+                                            <p class="indent green">。。</p>
+                                            <p class="indent green">用例2</p>
+                                            <p class="indent green">。。</p>
+                                            <p class="indent green">PlNode为N时，</p>
+                                            <p class="indent green">用例1</p>
+                                            <p class="indent green">。。。</p>
+                                            <p class="indent green">用例2</p>
+                                            <p class="indent green">。。。</p>
+                                            <p class="green">六、复赛阶段说明</p>
+                                            <p class="indent green">在复赛阶段需要提交下列材料：</p>
+                                            <p class="indent green">1.设计、测试说明文档</p>
+                                            <p class="indent green">2.可编译执行的源代码（内含测试用例代码）</p>
+                                            <p class="indent green">3.可执行程序</p>
+                                            <p class="indent green">如有缺失将直接影响评分</p>
+
+
+                                            <p>七、审核标准及评价细则</p>
+
+                                            <p>满分100分。不遵守题目要求的结果，将直接淘汰。</p>
+
+                                            <p class="indent">1.程序基本功能（60分）</p>
+                                            <p class="indent">a)满足功能</p>
+                                            <p class="indent">b)测试用例完备</p>
+                                            <p class="indent">2.代码质量（30分）</p>
+                                            <p class="indent">a)代码复杂度 </p>
+                                            <p class="indent">b)代码可读性</p>
+                                            <p class="indent">c)代码注释</p>
+                                            <p class="indent">3.文档质量（10分）</p>
+                                            <p class="indent">a)设计文档</p>
+                                            <p class="indent">b)用户文档</p></p>
+                                </div>
+
+                        </div>
+                        <div class="mainBottom"></div>
+                    </div>
+
+                </div>
+
+            </div>
+
+            <div id="errorTip" style="display:none">
+                <p class="msg_tip"></p>
+            </div>
+            <div id="getTip" style="display:none">
+                <p class="msg_tip"></p>
+
+                <div class="buttons">
+                    <button class="default"><span><span>确定</span></span></button>
+                    <button class="normal" style="display:none;"><span><span>取消</span></span></button>
+                </div>
+            </div>
+        </div>
+
+</div>
+</div>
+            </div>
+    </div>
+</div>
+<div id="footer">
+    <address>
+        <span class="floatright">
+        <a href="http://www.dajie.com/about/">关于</a>
+
+        | <a href="http://s.dajie.com/">招聘</a>
+        | <a href="http://123.dajie.com/">企业</a>
+        | <a href="http://city.dajie.com/">城市</a>
+        | <a href="http://biz.dajie.com/">行业</a>
+        | <a href="http://company.dajie.com/sub/exam/bs">笔经</a>
+
+        | <a href="http://company.dajie.com/sub/exam/ms">面经</a>
+        | <a href="mailto:service@dajie.com">意见反馈</a>
+        | <a href="http://www.dajie.com/about/privacy.html">服务与声明</a>
+        </span>&copy;2008-2013&nbsp;大街网&nbsp;|&nbsp;<a href="http://www.miitbeian.gov.cn" target="_blank" style="color: #999999;">京ICP备09028813号-1</a>&nbsp;|&nbsp;京公网安备11010802008965
+
+    </address>
+</div>
+
+<script type="text/javascript">
+    var root_canShowRegFloat = true;
+    $(function(){
+        var is_login = $.cookie('dj_auth') != null || $.cookie('dj_auth_v3') != null;
+    });
+</script>
+
+
+    
+                                    <script type="text/javascript">
+                                        $('#change').click(function () {
+                                            var $this = $(this);
+                                            $('.msg_tip').text("你已经领取任务了，确定要更换这个任务吗");
+                                            $.dialog('#errorTip', {title:"提示", mask:true, width:540, oncomplete:function () {
+                                                $.get("/team/fetch?aid=2&taskid=54", function (r) {
+                                                    var prefix = r.substr(0, 1);
+                                                    var msg = r.substr(2);
+                                                    if (prefix == '0') {
+                                                        $.alert('更换任务成功', {mask:true, oncomplete:function () {
+                                                            location.href = "/team/mytask?aid=2";
+                                                        }});
+                                                    } else {
+                                                        $.alert(msg, {mask:true, oncomplete:function () {
+                                                            location.href = location.href;
+                                                        }});
+                                                    }
+                                                });
+                                            }, onabort:function () {
+                                                return false;
+                                            }
+                                            });
+                                        })
+                                        $('#fetchtask').click(function () {
+                                            var obj_btn = $(this);
+                                            if (!($(this).hasClass('btnNormal'))) {
+                                                $.get("/team/fetch?aid=2&taskid=54", function (r) {
+                                                    var prefix = r.substr(0, 1);
+                                                    var msg = r.substr(2);
+                                                    if (prefix == '0') {
+                                                        $('.msg_tip').text("成功领取任务：负荷分担的可靠性系统仿真");
+                                                        obj_btn.addClass('btnNormal').find('span').text('已领取');
+                                                        $.dialog('#getTip', {title:"领取成功", mask:true, width:540, oncomplete:function () {
+                                                            location.href = "/team/mytask?aid=2";
+                                                        }});
+                                                    } else {
+                                                        $('.msg_tip').text(msg);
+                                                        $.dialog('#getTip', {title:"提示", mask:true, width:540});
+                                                    }
+                                                });
+                                            } else {
+                                                alert('不能重复领取同一任务')
+                                                return false;
+                                            }
+                                        })
+                                    </script>
+
+<script type="text/javascript">
+    var _gaq = _gaq || [];
+    _gaq.push(['_setAccount', 'UA-8089983-1']);
+    _gaq.push(['_addOrganic', 'baidu', 'word']);
+    _gaq.push(['_addOrganic', 'soso', 'w']);
+    _gaq.push(['_addOrganic', '3721', 'name']);
+    _gaq.push(['_addOrganic', 'yodao', 'q']);
+    _gaq.push(['_addOrganic', 'vnet', 'kw']);
+    _gaq.push(['_addOrganic', 'sogou', 'query']);
+    _gaq.push(['_setDomainName', '.dajie.com']);
+
+    _gaq.push(['_trackPageview']);
+        _gaq.push(['_setVar', '12245369']);
+    (function () {
+        var ga = document.createElement('script');
+        ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+        ga.setAttribute('async', 'true');
+        document.documentElement.firstChild.appendChild(ga);
+    })();
+</script>
+<script src='http://js.dajie.com/pv.2010061801.js' type='text/javascript'></script>
+<script type="text/javascript">
+    var _now = new Date();
+    var _style_count = $('link[rel=stylesheet]').length;
+    var _script_count = $('script[src]').length;
+    var url = "http://st.dajie.com/performance.st";
+    var i = new Image(1, 1);
+    try {
+        i.src = url + "?h=" + (_body_start - _head_start) + "&b=" + (_now - _body_start) + "&s=" + _style_count + "&j=" + _script_count;
+        i.onload = function () {
+            _uVoid();
+        }
+    } catch (e) {
+    }
+</script>
+
+
+</body>
+</html>
